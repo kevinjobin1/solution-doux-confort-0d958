@@ -14,7 +14,6 @@ export default function Providers({ children }: PropsWithChildren) {
         defaultTheme="light"
       >
         <Toaster />
-
         {children}
       </ThemeProvider>
     </SessionProvider>

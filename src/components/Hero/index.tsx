@@ -16,13 +16,10 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Open-source SaaS Starter Kit and Boilerplate for Next.js
+                  Solution Doux Confort
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Next.js SaaS Boilerplate and Starter Kit designed and built
-                  for SaaS startups. It comes with all necessary integrations,
-                  pages, and components you need to launch a feature-rich SaaS
-                  websites.
+                 Tous vos besoins en chauffage, ventilation et climatisation.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -30,7 +27,7 @@ const Hero = () => {
                       href="https://nextjstemplates.com/templates/play"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Download Now
+                      Obtenir une soumission
                     </Link>
                   </li>
                   <li>
@@ -39,31 +36,19 @@ const Hero = () => {
                       target="_blank"
                       className="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
-                      <svg
-                        className="fill-current"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clipPath="url(#clip0_2005_10818)">
-                          <path d="M12 0.674805C5.625 0.674805 0.375 5.8498 0.375 12.2998C0.375 17.3998 3.7125 21.7498 8.3625 23.3248C8.9625 23.4373 9.15 23.0623 9.15 22.7998C9.15 22.5373 9.15 21.7873 9.1125 20.7748C5.8875 21.5248 5.2125 19.1998 5.2125 19.1998C4.6875 17.8873 3.9 17.5123 3.9 17.5123C2.85 16.7623 3.9375 16.7623 3.9375 16.7623C5.1 16.7998 5.7375 17.9623 5.7375 17.9623C6.75 19.7623 8.475 19.2373 9.1125 18.8998C9.225 18.1498 9.525 17.6248 9.8625 17.3248C7.3125 17.0623 4.575 16.0498 4.575 11.6248C4.575 10.3498 5.0625 9.3373 5.775 8.5498C5.6625 8.2873 5.25 7.0873 5.8875 5.4748C5.8875 5.4748 6.9 5.1748 9.1125 6.6748C10.05 6.4123 11.025 6.2623 12.0375 6.2623C13.05 6.2623 14.0625 6.3748 14.9625 6.6748C17.175 5.2123 18.15 5.4748 18.15 5.4748C18.7875 7.0498 18.4125 8.2873 18.2625 8.5498C19.0125 9.3373 19.4625 10.3873 19.4625 11.6248C19.4625 16.0498 16.725 17.0623 14.175 17.3248C14.5875 17.6998 14.9625 18.4498 14.9625 19.4998C14.9625 21.0748 14.925 22.3123 14.925 22.6873C14.925 22.9873 15.15 23.3248 15.7125 23.2123C20.2875 21.6748 23.625 17.3623 23.625 12.2248C23.5875 5.8498 18.375 0.674805 12 0.674805Z" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_2005_10818">
-                            <rect width="24" height="24" fill="white" />
-                          </clipPath>
-                        </defs>
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                          width="24" height="24" viewBox="0 0 512 512">
+                          <path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z"/>
                       </svg>
-                      Star on Github
+                      Appelez-nous : 1 (418) 554-7569
                     </Link>
                   </li>
                 </ul>
 
                 <div>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
-                    Play is now available for all popular frameworks
+                    Services de qualité pour votre confort
                   </p>
                   <div
                     className="wow fadeInUp flex items-center justify-center gap-4 text-center"
@@ -208,7 +193,7 @@ const Hero = () => {
               >
                 <div className="mt-16">
                   <Image
-                    src="/images/hero/hero-image.jpg"
+                    src="/images/hero/hero-image.webp"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                     width={845}
