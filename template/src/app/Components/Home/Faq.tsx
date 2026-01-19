@@ -10,11 +10,16 @@ const Faq = () => {
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
   
-    const handleItemClick = index => {
+    interface AccordionItem {
+      title: string;
+      desc: string;
+    }
+
+    const handleItemClick = (index: number): void => {
       if (index === openItemIndex) {
-        setOpenItemIndex(-1);
+      setOpenItemIndex(-1);
       } else {
-        setOpenItemIndex(index);
+      setOpenItemIndex(index);
       }
     };
     useEffect(() => {
@@ -27,9 +32,9 @@ const Faq = () => {
     const FaqContent = {
       img1:'/assets/img/faq_img_1.jpg',
       img2:'/assets/img/faq_img_2.jpg',
-      Experience:'25+',
-      BestAward:'Best ArkdinAir Company',
-      Content:'Air conditioning system is best for your home Our FrostFree Consultation air a  service provides expert guidance tailored to your specific needs.'
+      Experience:'+25',
+      BestAward:'Service d\'urgence 24/7',
+      Content:'Nous sommes là pour répondre à toutes vos questions sur nos services de climatisation et de chauffage. Consultez nos FAQ ci-dessous pour en savoir plus sur la façon dont nous pouvons vous aider à maintenir un environnement intérieur confortable toute l\'année.'
     }
 
     return (
@@ -46,7 +51,7 @@ const Faq = () => {
                     <div className="cs_faq_thumb_2_in">
                       <div className="cs_faq_experience_box cs_accent_bg text-center">
                         <h3 className="cs_fs_48 cs_white_color">{FaqContent.Experience}</h3>
-                        <p className="cs_white_color mb-0">Years <br/>Experience</p>
+                        <p className="cs_white_color mb-0">années <br/>d'expérience</p>
                         <svg width="72" height="42" viewBox="0 0 72 42" className="cs_accent_color" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 42V0L72 42H0Z" fill="currentColor"/>
                         </svg>                      
@@ -60,7 +65,7 @@ const Faq = () => {
               <div className="col-xl-6">
                 <div className="cs_section_heading cs_style_1">
                   <SectionTitle
-                      Title="Frequently Asked Questions"
+                      Title="Questions fréquentes"
                       SubTitle="Faq"
                   ></SectionTitle>
                   <p className="cs_section_text">{FaqContent.Content}</p>

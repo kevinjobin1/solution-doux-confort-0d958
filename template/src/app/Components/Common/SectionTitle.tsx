@@ -1,7 +1,12 @@
-import parse from 'html-react-parser';
+import parse, { HTMLReactParserOptions } from 'html-react-parser';
 import Image from 'next/image';
 
-const SectionTitle = ({Title,SubTitle}) => {
+type SectionTitleProps = {
+  Title: string;
+  SubTitle:string;
+};
+
+const SectionTitle = ({ Title, SubTitle }: SectionTitleProps) => {
   
     return (
         <div>

@@ -18,42 +18,42 @@ const Process = () => {
         <div className="cs_section_heading_1_with_sub">
           <div className="cs_section_heading cs_style_1">
              <SectionTitle
-                  Title="Simple Working Process"
-                  SubTitle="Who To Work"
+                  Title="Processus de travail"
+                  SubTitle="Qu&apos;est-ce qui nous distingue"
               ></SectionTitle>
           </div>
-          <p className="mb-0">Keeping the outdoor unit clean, and sealing any you leaks in your home can improve efficiency</p>
+            <p className="mb-0">Garder l’unité extérieure propre et sceller toute fuite dans votre maison peut améliorer l’efficacité</p>
         </div>
         <div className="cs_height_45 cs_height_lg_45"></div>
         <div className="cs_card_1_wrap">
           <div className="cs_card_1_col">
             <ProcessCard
-                    Title="Cool Wave System"
-                    Content="Upgrade to the latest energy and efficient air conditioning Frost technology with Eco Cool"
+                    Title="Système Cool Wave"
+                    Content="Améliorez votre système avec la dernière technologie de climatisation écoénergétique Frost d'Eco Cool"
                     Img="/assets/img/icons/how_to_work_icon_1.svg"
                 >
             </ProcessCard>
           </div>
           <div className="cs_card_1_col">
             <ProcessCard2
-                    Title="Arctic Installations"
-                    Content="The Arctic Blast Repair service addresses all your air Eco Cool  conditioning repair needs"
+                    Title="Installations Arctiques"
+                    Content="Le service de réparation Arctic Blast répond à tous vos besoins en matière de réparation de climatisation Eco Cool"
                     Img="/assets/img/icons/how_to_work_icon_2.svg"                
                 >
             </ProcessCard2>
           </div>
           <div className="cs_card_1_col">
             <ProcessCard
-                    Title="Air Flow Solutions"
-                    Content="Our Quick Cool Installation and service provides fast and cooling efficient installation"
+                    Title="Solutions de flux d'air"
+                    Content="Notre installation et service Quick Cool fournit une installation rapide et efficace"
                     Img="/assets/img/icons/how_to_work_icon_3.svg"
                 >
             </ProcessCard>
           </div>
           <div className="cs_card_1_col">
             <ProcessCard2
-                    Title="Emergency Service"
-                    Content="We handle everything from and assessing your cooling needs to positioning  Arctic Blast"
+                    Title="Service d'urgence"
+                    Content="Nous gérons tout, de l'évaluation de vos besoins en climatisation à la mise en place d'Arctic Blast"
                     Img="/assets/img/icons/how_to_work_icon_4.svg"                
                 >
             </ProcessCard2>

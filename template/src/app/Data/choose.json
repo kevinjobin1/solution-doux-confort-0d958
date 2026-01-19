@@ -1,22 +1,22 @@
 [
   {
-    "img": "/assets/img/icons/why_chose_us_1.svg",   
-    "title": "24/7 Online Support",
-    "desc": "Our Cool Care Emergency and Service is available 24/7"
+    "img": "/assets/img/icons/why_chose_us_1.svg",
+    "title": "Support en ligne 24/7",
+    "desc": "Notre service d'urgence et d'assistance Cool Care est disponible 24h/24 et 7j/7"
   },
   {
-    "img": "/assets/img/icons/why_chose_us_2.svg",   
-    "title": "Expert Cleaning Team",
-    "desc": "Proper calibration of your AC system ensures even cooling"
+    "img": "/assets/img/icons/why_chose_us_2.svg",
+    "title": "Équipe de nettoyage experte",
+    "desc": "Un bon calibrage de votre système de climatisation assure un refroidissement uniforme"
   },
   {
-    "img": "/assets/img/icons/why_chose_us_3.svg",   
-    "title": "Expert Cleaning Team",
-    "desc": "Air conditioning system is best for your home cooling"
+    "img": "/assets/img/icons/why_chose_us_3.svg",
+    "title": "Équipe de nettoyage experte",
+    "desc": "Le système de climatisation est idéal pour rafraîchir votre maison"
   },
   {
-    "img": "/assets/img/icons/why_chose_us_4.svg",   
-    "title": "Affordable Price",
-    "desc": "Proper calibration of your AC system ensures even cooling"
-  }   
+    "img": "/assets/img/icons/why_chose_us_4.svg",
+    "title": "Prix abordable",
+    "desc": "Un bon calibrage de votre système de climatisation assure un refroidissement uniforme"
+  }
 ]

@@ -3435,6 +3435,7 @@ label {
 .cs_site_header_style1 .cs_nav .cs_nav_list > li.current-menu-item > a:before {
   bottom: -4px;
   background-color: #fff;
+  text-decoration: none;
 }
 .cs_header_search_form {
   box-shadow: 0px 4px 4px rgba(193, 193, 193, 0.25);
@@ -3544,9 +3545,11 @@ label {
   border-color: #d6d6d6;
 }
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list > li > a {
+   text-decoration: none;
   color: #18191d;
 }
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list > li > a:hover {
+   text-decoration: none;
   color: #e9a132;
 }
 @media screen and (min-width: 1200px) {
@@ -3601,6 +3604,7 @@ label {
   .cs_nav .cs_nav_list > li > a {
     padding: 10px 0;
     display: inline-flex;
+    text-decoration: none;
     position: relative;
     height: inherit;
     align-items: center;
@@ -3617,6 +3621,7 @@ label {
     transition: all 0.4s ease;
  }
   .cs_nav .cs_nav_list > li.menu-item-has-children > a {
+     text-decoration: none;
     position: relative;
  }
   .cs_nav .cs_nav_list > li.menu-item-has-children > a::after {
@@ -3630,6 +3635,7 @@ label {
     top: -1px;
     font-size: 12px;
     color: currentColor;
+     text-decoration: none;
  }
   .cs_nav .cs_nav_list ul {
     width: 230px;
@@ -3650,11 +3656,13 @@ label {
  }
   .cs_nav .cs_nav_list ul li:not(:last-child) a {
     position: relative;
+    text-decoration: none;  
  }
   .cs_nav .cs_nav_list ul li:not(:last-child) a::after {
     content: '';
     position: absolute;
     height: 1px;
+    text-decoration: none;
     width: calc(100% - 40px);
     left: 20px;
     bottom: 0;
@@ -3670,6 +3678,7 @@ label {
  }
   .cs_nav .cs_nav_list ul a {
     display: block;
+     text-decoration: none;
     line-height: inherit;
     padding: 10px 20px;
  }
@@ -3751,6 +3760,7 @@ label {
     text-transform: capitalize;
  }
   .cs_nav .cs_nav_list a {
+     text-decoration: none;
     display: block;
     padding: 8px 20px;
  }
@@ -3816,12 +3826,14 @@ label {
     transition-delay: 0s, 0.2s;
  }
   .cs_nav .cs_nav_list a {
+     text-decoration: none;
     position: relative;
  }
   .cs_site_header.cs_style_1 .cs_main_header_in {
     height: 80px;
  }
   .cs_site_header .current-menu-item > a:before {
+     text-decoration: none;
     display: none;
  }
   .cs_site_header.cs_style_1 {
@@ -3944,6 +3956,7 @@ label {
   height: 90px;
 }
 .cs_nav .cs_nav_list > li > a:hover{
+   text-decoration: none;
   color: var(--accent);
 }
 .cs_header_social_links_wrap {
@@ -4035,11 +4048,13 @@ label {
   background-color: rgba(105, 105, 105, 0.6);
 }
 .cs_social_btns.cs_style_1.cs_type_1 a {
+   text-decoration: none;
   border-radius: 10px;
   background-color: var(--border);
   color: var(--heading-color);
 }
 .cs_social_btns.cs_style_1.cs_type_1 a:hover {
+   text-decoration: none;
   background-color: var(--accent);
   color: #fff;
 }
@@ -4409,13 +4424,16 @@ label {
   }
 }
 .cs_footer.cs_style_1 .cs_footer_bottom_in a:hover {
+   text-decoration: none;
   color: var(--heading-color);
 }
 .cs_footer.cs_style_1 .cs_footer_copyright a {
+   text-decoration: none;
   color: var(--heading-color);
 }
 .cs_footer.cs_style_1 .cs_footer_copyright a:hover {
-  text-decoration: underline;
+   /* text-decoration: none; */
+  
 }
 .cs_footer.cs_style_1 .cs_main_footer {
   padding: 75px 0;
@@ -4463,10 +4481,12 @@ label {
   top: 4px;
 }
 .cs_footer.cs_style_2 .cs_footer_copyright a {
+   text-decoration: none;
   color: var(--accent);
 }
 .cs_footer.cs_style_2 .cs_footer_copyright a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  /*  text-decoration: none; */
 }
 .cs_footer.cs_style_2 .cs_footer_menu_2 li {
   padding-left: 25px;
@@ -5056,6 +5076,7 @@ label {
           transform: scale(1.08);
 }
 .cs_post.cs_style_2:hover a {
+   text-decoration: none;
   color: #fff;
 }
 .cs_post.cs_style_2 h2 a {
@@ -5883,7 +5904,7 @@ label {
 }
 
 #commentform p.logged-in-as a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 
 .comment-reply-title small {
@@ -5894,7 +5915,7 @@ label {
 }
 
 .comment-reply-title small a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 
 /* End Comment */

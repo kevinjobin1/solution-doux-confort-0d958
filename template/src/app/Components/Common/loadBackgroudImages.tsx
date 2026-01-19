@@ -3,8 +3,9 @@ export default function loadBackgroudImages() {
 
     if (backgroudImages.length > 0) {
       backgroudImages.forEach(element => {
-        let image = element.dataset.background;
-        element.style.backgroundImage = `url('${image}')`;
+        const htmlElement = element as HTMLElement;
+        let image = htmlElement.dataset.background;
+        htmlElement.style.backgroundImage = `url('${image}')`;
       })
     }
   }

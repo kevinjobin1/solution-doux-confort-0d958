@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const TeamDetails = () => {
@@ -14,8 +15,8 @@ const TeamDetails = () => {
                         </div>
                         </div>
                         <div className="col-lg-6">
-                        <h2 className="cs_fs_48 cs_semibold cs_mb_8">Darlene Robertson</h2>
-                        <p className="cs_member_designation cs_accent_color cs_mb_30">Ace Technician</p>
+                        <h2 className="cs_fs_48 cs_semibold cs_mb_8">Danny Doucet</h2>
+                        <p className="cs_member_designation cs_accent_color cs_mb_30">Propriétaire et fondateur</p>
                         <div className="cs_social_btns cs_style_1 cs_type_1 cs_mb_35">
                             <a href="#" className="cs_social_btn cs_center">
                             <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,27 +39,29 @@ const TeamDetails = () => {
                                         </svg>
                             </a>
                         </div>
-                        <p className="cs_mb_25">Professional consultation services to help you choose the right air and of conditioning system for your home or business needs. Site evaluation, as load calculation,</p>
+                        <p className="cs_mb_25">Danny Doucet est le propriétaire et fondateur de Solution Doux Confort. Avec plus de 20 ans d'expérience dans l'industrie du chauffage, de la ventilation et de la climatisation (CVC), Danny est passionné par la fourniture de solutions de confort écoénergétiques et fiables à ses clients. Sous sa direction, Solution Doux Confort est devenue une entreprise de confiance dans la région, reconnue pour son engagement envers la qualité et le service à la clientèle.</p>
                         <ul className="cs_mp_0 cs_member_info_list">
                             <li>
-                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Phone Number:</span>
+                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Numéro de téléphone:</span>
                             <span>(+270) 555-0117</span>
                             </li>
                             <li>
                             <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Email:</span>
-                            <a href="mailto:example@gmail.com">example@gmail.com</a>
+                            <a href="mailto:ddoucet@solutiondouxconfort.com">ddoucet@solutiondouxconfort.com</a>
                             </li>
                             <li>
-                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Website:</span>
-                            <a href="http://www.zoomit.com">http://www.zoomit.com</a>
+                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Site Web:</span>
+                            <a href="http://www.solutiondouxconfort.com">http://www.solutiondouxconfort.com</a>
                             </li>
                             <li>
-                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Address:</span>
-                            <span>4140 Parker Rd. Allentown, New Mexico 31134</span>
+                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Adresse:</span>
+                            <span>
+                                185 Avenue Saint-Sacrement, Québec, QC G1N 3X4
+                            </span>
                             </li>
                             <li>
-                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Experience:</span>
-                            <span>20 Years</span>
+                            <span className="cs_fs_18 cs_medium cs_heading_font cs_heading_color">Expérience:</span>
+                            <span>20 Ans</span>
                             </li>
                         </ul>
                         </div>
@@ -67,17 +70,17 @@ const TeamDetails = () => {
                     <div className="row">
                         <div className="col-lg-6">
                         <div className="cs_pr_30">
-                            <h3 className="cs_fs_30 cs_semibold cs_mb_25">About Me</h3>
-                            <p className="mb-0">Professional consultation services Site evaluation, load calculation, system recommendations, and detailed cost estimates  Rapid response, on-site an diagnostics, immediate repairs, and follow-up check Fast and efficient is for installation of new air conditioning units <br/><br/>Comprehensive system scan, fault detection, detailed report, and conditionin recommended solutions Precision calibration services to ensure your air for conditioning system is operating at its optimal settings for maximum comfort and efficiency</p>
+                            <h3 className="cs_fs_30 cs_semibold cs_mb_25">À propos de moi</h3>
+                            <p className="mb-0">Services de consultation professionnelle Évaluation du site, calcul de charge, recommandations de système et estimations détaillées des coûts Réponse rapide, diagnostics sur site, réparations immédiates et vérification de suivi Installation rapide et efficace de nouvelles unités de climatisation <br/><br/>Analyse complète du système, détection des défauts, rapport détaillé et solutions recommandées Calibration de précision pour garantir que votre système de climatisation fonctionne à ses réglages optimaux pour un confort et une efficacité maximaux</p>
                         </div>
                         </div>
                         <div className="col-lg-6">
-                        <h2 className="cs_fs_30 cs_semibold cs_mb_25">Personal Skills</h2>
-                        <p className="cs_mb_24">Thorough cleaning services to remove dirt, dust, and debris from your air conditioning system, improving air quality and system efficiency.</p>
+                        <h2 className="cs_fs_30 cs_semibold cs_mb_25">Compétences personnelles</h2>
+                        <p className="cs_mb_24">Services de nettoyage approfondis pour éliminer la saleté, la poussière et les débris de votre système de climatisation, améliorant la qualité de l'air et l'efficacité du système.</p>
                         <ul className="cs_progress_list cs_mp_0">
                             <li>
                             <div className="cs_progress_head cs_fs_18 cs_heading_color cs_heading_font">
-                                <span>ChillMax Cleaning</span>
+                                <span>Nettoyage ChillMax</span>
                                 <span>80%</span>
                             </div>
                             <div className="cs_progress" data-progress="80">
@@ -86,7 +89,7 @@ const TeamDetails = () => {
                             </li>
                             <li>
                             <div className="cs_progress_head cs_fs_18 cs_heading_color cs_heading_font">
-                                <span>ArcticBlast Repai</span>
+                                <span>Réparation ArcticBlast</span>
                                 <span>76%</span>
                             </div>
                             <div className="cs_progress" data-progress="76">
@@ -95,7 +98,7 @@ const TeamDetails = () => {
                             </li>
                             <li>
                             <div className="cs_progress_head cs_fs_18 cs_heading_color cs_heading_font">
-                                <span>FreshFlow Maintenance</span>
+                                <span>Maintenance FreshFlow</span>
                                 <span>92%</span>
                             </div>
                             <div className="cs_progress" data-progress="92">

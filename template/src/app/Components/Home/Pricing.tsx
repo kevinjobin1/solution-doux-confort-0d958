@@ -14,13 +14,13 @@ const Pricing = () => {
               <div className="cs_slider_heading_1">
                 <div className="cs_section_heading cs_style_1">
                 <SectionTitle
-                    Title="Where Comfort Meets <br/>Efficiency"
-                    SubTitle="Our price plan"
+                    Title="Là où le confort rencontre <br/> l'efficacité"
+                    SubTitle="Notre plan tarifaire"
                 ></SectionTitle>
                 </div>
                 <ul className="cs_tab_links cs_style_2 cs_semibold cs_heading_font cs_mp_0 cs_heading_color">
-                  <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Monthly</a></li>
-                  <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Yearly</a></li>
+                  <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Mensuel</a></li>
+                  <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Annuel</a></li>
                 </ul>
               </div>
               <div className="cs_height_45 cs_height_lg_45"></div>
@@ -30,45 +30,45 @@ const Pricing = () => {
                     <div className="col-lg-4">
                        <PricingCard
                         Price="150"
-                        Monthly="Monthly"
-                        Title="Basic Plan"
+                        Monthly="Mensuel"
+                        Title="Plan de base"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>
                     <div className="col-lg-4">
                     <PricingCard
                         Price="200"
-                        Monthly="Monthly"
-                        Title="Standard Plan"
+                        Monthly="Mensuel"
+                        Title="Plan standard"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>
                     <div className="col-lg-4">
                     <PricingCard
                         Price="250"
-                        Monthly="Monthly"
-                        Title="Premium Plan"
+                        Monthly="Mensuel"
+                        Title="Plan premium"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>
@@ -79,45 +79,45 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="350"
-                        Monthly="Yearly"
-                        Title="Basic Plan"
+                        Monthly="Annuel"
+                        Title="Plan de base"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>
                     <div className="col-lg-4">
                     <PricingCard
                         Price="500"
-                        Monthly="Yearly"
-                        Title="Standard Plan"
+                        Monthly="Annuel"
+                        Title="Plan standard"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>
                     <div className="col-lg-4">
                     <PricingCard
                         Price="600"
-                        Monthly="Yearly"
-                        Title="Premium Plan"
+                        Monthly="Annuel"
+                        Title="Plan premium"
                         FeatureList={[ 
-                            'Refrigerant leak detection & repair',
-                            'Thermostat replacement',
-                            'Clean condenser coil',
-                            'Air filter replacement',
-                            'Clean condenser coil',
-                            'AC fan replacement'
+                            "Réparation et détection de fuites de réfrigérant",
+                            'Remplacement du thermostat',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du filtre à air',
+                            'Nettoyage de la bobine du condenseur',
+                            'Remplacement du ventilateur de climatisation'
                         ]} >
                         </PricingCard> 
                     </div>

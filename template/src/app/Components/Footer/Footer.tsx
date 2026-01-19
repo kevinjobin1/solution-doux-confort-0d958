@@ -7,23 +7,39 @@ import Image from "next/image";
 const Footer = () => {
 
     const Services = [
-        'Rapid Cool Installation',
-        'Air Flow Optimization',
-        'Rapid Drain Unclogging',
-        'Frost Guard Emergency',
-        'Breeze Balance Calibration',
+        'Installation',
+        'Maintenance',
+        'Réparation',
+        'Climatisation résidentielle',
+        'Climatisation commerciale',
+        'Chauffage résidentiel',
+        'Chauffage commercial',
+        'Thermopompes',
+        'Systèmes HVAC',
+        'Services d\'urgence 24/7'
       ];
 
+
+//       Saturday	Closed
+// Sunday	Closed
+// Monday	9 a.m.–4 p.m.
+// Tuesday	9 a.m.–4 p.m.
+// Wednesday	9 a.m.–4 p.m.
+// Thursday	9 a.m.–4 p.m.
+// Friday	9 a.m.–4 p.m.
     const WorkingHours = [
-        {day:'Thu - Fri', time:'9:00 AM - 7:00 PM'},
-        {day:'Mon - Wed', time:'8:00 AM - 10:00 PM'},
-        {day:'Saturday', time:'7:00 AM - 9:00 PM'},
-        {day:'Sunday', time:'Close'},
+        {day:'Lundi', time:'9h00 - 16h00'},
+        {day:'Mardi', time:'9h00 - 16h00'},
+        {day:'Mercredi', time:'9h00 - 16h00'},
+        {day:'Jeudi', time:'9h00 - 16h00'},
+        {day:'Vendredi', time:'9h00 - 16h00'},
+        {day:'Samedi', time:'Fermé'},
+        {day:'Dimanche', time:'Fermé'},
       ];
 
       const QuickLinks = [
-        {title:'Home', link:'/'},
-        {title:'About', link:'/about'},
+        {title:'Accueil', link:'/'},
+        {title:'À propos', link:'/about'},
         {title:'Services', link:'/service'},
         {title:'Blog', link:'/blog'},
         {title:'Contact', link:'/contact'}
@@ -62,7 +78,7 @@ const Footer = () => {
                 </div>
                 <div className="cs_footer_logo wow zoomIn" data-wow-duration="0.9s" data-wow-delay="0.25s">
                   <Link href="/">
-                    <Image src="/assets/img/footer_logo.svg" alt="Logo" width={139} height={111}   />
+                    <Image src="/logo-600x269.png" alt="Logo" width={139} height={111}   />
                   </Link> 
                   </div> 
                 <div className="cs_footer_contact_card">
@@ -70,8 +86,8 @@ const Footer = () => {
                     <Image src="/assets/img/icons/call.svg" alt="img" width={25} height={25}   />
                   </div>
                   <div>
-                    <p className="cs_white_color cs_fs_14 mb-0">Need Any Cleaning Help</p>
-                    <h3 className="mb-0 cs_fs_24 cs_semibold cs_white_color">+222 (789) 568 25</h3>
+                    <p className="cs_white_color cs_fs_14 mb-0">Contactez-nous</p>
+                    <h3 className="mb-0 cs_fs_24 cs_semibold cs_white_color">+1 (418) 554-7569</h3>
                   </div>
                 </div>
               </div>
@@ -82,7 +98,7 @@ const Footer = () => {
               <div className="cs_footer_row cs_type_1">
                 <div className="cs_footer_col">
                   <div className="cs_footer_widget">
-                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Our Service</h2>
+                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Nos Services</h2>
                     <div className="cs_footer_widget_seperator">
                       <span className="cs_accent_bg"></span>
                       <span className="cs_white_bg"></span>
@@ -97,7 +113,7 @@ const Footer = () => {
                 </div>
                 <div className="cs_footer_col">
                   <div className="cs_footer_widget">
-                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Working Hours:</h2>
+                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Heures d&apos;ouverture :</h2>
                     <div className="cs_footer_widget_seperator">
                       <span className="cs_accent_bg"></span>
                       <span className="cs_white_bg"></span>
@@ -115,7 +131,7 @@ const Footer = () => {
                 </div>
                 <div className="cs_footer_col">
                   <div className="cs_footer_widget">
-                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Quick links</h2>
+                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Liens rapides</h2>
                     <div className="cs_footer_widget_seperator">
                       <span className="cs_accent_bg"></span>
                       <span className="cs_white_bg"></span>
@@ -130,7 +146,7 @@ const Footer = () => {
                 </div>
                 <div className="cs_footer_col">
                   <div className="cs_footer_widget">
-                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Recent Post</h2>
+                    <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Articles récents</h2>
                     <div className="cs_footer_widget_seperator">
                       <span className="cs_accent_bg"></span>
                       <span className="cs_white_bg"></span>
@@ -147,11 +163,12 @@ const Footer = () => {
                             <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M4.9124 1.625V2.5H8.4124V1.625C8.4124 1.36979 8.49443 1.16016 8.65849 0.996094C8.82255 0.832031 9.03219 0.75 9.2874 0.75C9.54261 0.75 9.75224 0.832031 9.9163 0.996094C10.0804 1.16016 10.1624 1.36979 10.1624 1.625V2.5H11.4749C11.8395 2.51823 12.1494 2.64583 12.4046 2.88281C12.6416 3.13802 12.7692 3.44792 12.7874 3.8125V5.125H0.537398V3.8125C0.555627 3.44792 0.683231 3.13802 0.92021 2.88281C1.17542 2.64583 1.48531 2.51823 1.8499 2.5H3.1624V1.625C3.1624 1.36979 3.24443 1.16016 3.40849 0.996094C3.57255 0.832031 3.78219 0.75 4.0374 0.75C4.29261 0.75 4.50224 0.832031 4.6663 0.996094C4.83037 1.16016 4.9124 1.36979 4.9124 1.625ZM0.537398 6H12.7874V13.4375C12.7692 13.8021 12.6416 14.112 12.4046 14.3672C12.1494 14.6042 11.8395 14.7318 11.4749 14.75H1.8499C1.48531 14.7318 1.17542 14.6042 0.92021 14.3672C0.683231 14.112 0.555627 13.8021 0.537398 13.4375V6ZM2.2874 9.0625C2.30563 9.33594 2.45146 9.48177 2.7249 9.5H3.5999C3.87334 9.48177 4.01917 9.33594 4.0374 9.0625V8.1875C4.01917 7.91406 3.87334 7.76823 3.5999 7.75H2.7249C2.45146 7.76823 2.30563 7.91406 2.2874 8.1875V9.0625ZM5.7874 9.0625C5.80563 9.33594 5.95146 9.48177 6.2249 9.5H7.0999C7.37334 9.48177 7.51917 9.33594 7.5374 9.0625V8.1875C7.51917 7.91406 7.37334 7.76823 7.0999 7.75H6.2249C5.95146 7.76823 5.80563 7.91406 5.7874 8.1875V9.0625ZM9.7249 7.75C9.45146 7.76823 9.30563 7.91406 9.2874 8.1875V9.0625C9.30563 9.33594 9.45146 9.48177 9.7249 9.5H10.5999C10.8733 9.48177 11.0192 9.33594 11.0374 9.0625V8.1875C11.0192 7.91406 10.8733 7.76823 10.5999 7.75H9.7249ZM2.2874 12.5625C2.30563 12.8359 2.45146 12.9818 2.7249 13H3.5999C3.87334 12.9818 4.01917 12.8359 4.0374 12.5625V11.6875C4.01917 11.4141 3.87334 11.2682 3.5999 11.25H2.7249C2.45146 11.2682 2.30563 11.4141 2.2874 11.6875V12.5625ZM6.2249 11.25C5.95146 11.2682 5.80563 11.4141 5.7874 11.6875V12.5625C5.80563 12.8359 5.95146 12.9818 6.2249 13H7.0999C7.37334 12.9818 7.51917 12.8359 7.5374 12.5625V11.6875C7.51917 11.4141 7.37334 11.2682 7.0999 11.25H6.2249ZM9.2874 12.5625C9.30563 12.8359 9.45146 12.9818 9.7249 13H10.5999C10.8733 12.9818 11.0192 12.8359 11.0374 12.5625V11.6875C11.0192 11.4141 10.8733 11.2682 10.5999 11.25H9.7249C9.45146 11.2682 9.30563 11.4141 9.2874 11.6875V12.5625Z" fill="white"/>
                               </svg>
-                       
-                              12 May, 2024
+                                12 Janvier 2026
                             </p>
                             <h3 className="cs_white_color cs_fs_18 cs_medium mb-0">
-                            <Link href="/blog/blog-details">Outdoor and Landscape Lighting</Link>
+                            <Link href="/blog/blog-details">
+                              Comment choisir le système CVC adapté à votre maison
+                            </Link>
                             </h3>
                           </div>
                         </div>
@@ -166,10 +183,10 @@ const Footer = () => {
                             <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.9124 1.625V2.5H8.4124V1.625C8.4124 1.36979 8.49443 1.16016 8.65849 0.996094C8.82255 0.832031 9.03219 0.75 9.2874 0.75C9.54261 0.75 9.75224 0.832031 9.9163 0.996094C10.0804 1.16016 10.1624 1.36979 10.1624 1.625V2.5H11.4749C11.8395 2.51823 12.1494 2.64583 12.4046 2.88281C12.6416 3.13802 12.7692 3.44792 12.7874 3.8125V5.125H0.537398V3.8125C0.555627 3.44792 0.683231 3.13802 0.92021 2.88281C1.17542 2.64583 1.48531 2.51823 1.8499 2.5H3.1624V1.625C3.1624 1.36979 3.24443 1.16016 3.40849 0.996094C3.57255 0.832031 3.78219 0.75 4.0374 0.75C4.29261 0.75 4.50224 0.832031 4.6663 0.996094C4.83037 1.16016 4.9124 1.36979 4.9124 1.625ZM0.537398 6H12.7874V13.4375C12.7692 13.8021 12.6416 14.112 12.4046 14.3672C12.1494 14.6042 11.8395 14.7318 11.4749 14.75H1.8499C1.48531 14.7318 1.17542 14.6042 0.92021 14.3672C0.683231 14.112 0.555627 13.8021 0.537398 13.4375V6ZM2.2874 9.0625C2.30563 9.33594 2.45146 9.48177 2.7249 9.5H3.5999C3.87334 9.48177 4.01917 9.33594 4.0374 9.0625V8.1875C4.01917 7.91406 3.87334 7.76823 3.5999 7.75H2.7249C2.45146 7.76823 2.30563 7.91406 2.2874 8.1875V9.0625ZM5.7874 9.0625C5.80563 9.33594 5.95146 9.48177 6.2249 9.5H7.0999C7.37334 9.48177 7.51917 9.33594 7.5374 9.0625V8.1875C7.51917 7.91406 7.37334 7.76823 7.0999 7.75H6.2249C5.95146 7.76823 5.80563 7.91406 5.7874 8.1875V9.0625ZM9.7249 7.75C9.45146 7.76823 9.30563 7.91406 9.2874 8.1875V9.0625C9.30563 9.33594 9.45146 9.48177 9.7249 9.5H10.5999C10.8733 9.48177 11.0192 9.33594 11.0374 9.0625V8.1875C11.0192 7.91406 10.8733 7.76823 10.5999 7.75H9.7249ZM2.2874 12.5625C2.30563 12.8359 2.45146 12.9818 2.7249 13H3.5999C3.87334 12.9818 4.01917 12.8359 4.0374 12.5625V11.6875C4.01917 11.4141 3.87334 11.2682 3.5999 11.25H2.7249C2.45146 11.2682 2.30563 11.4141 2.2874 11.6875V12.5625ZM6.2249 11.25C5.95146 11.2682 5.80563 11.4141 5.7874 11.6875V12.5625C5.80563 12.8359 5.95146 12.9818 6.2249 13H7.0999C7.37334 12.9818 7.51917 12.8359 7.5374 12.5625V11.6875C7.51917 11.4141 7.37334 11.2682 7.0999 11.25H6.2249ZM9.2874 12.5625C9.30563 12.8359 9.45146 12.9818 9.7249 13H10.5999C10.8733 12.9818 11.0192 12.8359 11.0374 12.5625V11.6875C11.0192 11.4141 10.8733 11.2682 10.5999 11.25H9.7249C9.45146 11.2682 9.30563 11.4141 9.2874 11.6875V12.5625Z" fill="white"/>
                                 </svg>
-                              10 May, 2024
+                             10 mai 2025
                             </p>
                             <h3 className="cs_white_color cs_fs_18 cs_medium mb-0">
-                            <Link href="/blog/blog-details">Panel Upgrades and Maintenance</Link>
+                            <Link href="/blog/blog-details">Mises à niveau et maintenance des panneaux</Link>
                             </h3>
                           </div>
                         </div>
@@ -183,9 +200,9 @@ const Footer = () => {
           <div className="cs_footer_bottom cs_accent_bg cs_white_color">
             <div className="container">
               <div className="cs_footer_bottom_in">
-                <div className="cs_footer_copyright">Copyright@ {new Date().getFullYear()} <Link href="/">ArkdinAir</Link>. All Rights Reserved.</div>
+                <div className="cs_footer_copyright">Tous droits réservés (c) 2026- <Link href="/">Solution Doux Confort inc.</Link></div>
                 <ul className="cs_footer_menu cs_mp_0">
-                  <li><Link href="#">Setting & Privacy </Link></li>
+                  <li><Link href="#">Paramètres & Confidentialité </Link></li>
                   <li><Link href="#">FAQ</Link></li>
                   <li><Link href="#">Support</Link></li>
                 </ul>

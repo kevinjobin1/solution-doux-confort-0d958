@@ -3422,9 +3422,10 @@ label {
   position: relative;
   top: 1px;
 }
-.cs_site_header_full_width .container {
+/* .cs_site_header_full_width .container {
   max-width: 1320px;
-}
+  
+} */
 .cs_site_header_style1 {
   border-bottom: 1px solid #1a188d;
 }
@@ -3433,6 +3434,7 @@ label {
   align-items: center;
 }
 .cs_site_header_style1 .cs_nav .cs_nav_list > li.current-menu-item > a:before {
+  text-decoration: none;
   bottom: -4px;
   background-color: #fff;
 }
@@ -3544,9 +3546,11 @@ label {
   border-color: #d6d6d6;
 }
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list > li > a {
+   text-decoration: none;
   color: #18191d;
 }
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list > li > a:hover {
+  text-decoration: none;
   color: #e9a132;
 }
 @media screen and (min-width: 1200px) {
@@ -3599,6 +3603,7 @@ label {
     margin-right: 0;
  }
   .cs_nav .cs_nav_list > li > a {
+    text-decoration: none;
     padding: 10px 0;
     display: inline-flex;
     position: relative;
@@ -3618,9 +3623,10 @@ label {
  }
   .cs_nav .cs_nav_list > li.menu-item-has-children > a {
     position: relative;
+    text-decoration: none;
  }
   .cs_nav .cs_nav_list > li.menu-item-has-children > a::after {
-    content: '\2b';
+    /* chevron down */
     font-weight: 900;
     display: inline-block;
     border-left: 0;
@@ -3630,6 +3636,7 @@ label {
     top: -1px;
     font-size: 12px;
     color: currentColor;
+    text-decoration: none;
  }
   .cs_nav .cs_nav_list ul {
     width: 230px;
@@ -3909,7 +3916,8 @@ label {
   top: 0;
 }
 .cs_site_header.cs_style_1 .cs_top_header {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: var(--accent);
   color: #fff;
 }
 .cs_site_header.cs_style_1 .cs_top_header_in {
@@ -3944,6 +3952,7 @@ label {
   height: 90px;
 }
 .cs_nav .cs_nav_list > li > a:hover{
+   text-decoration: none;
   color: var(--accent);
 }
 .cs_header_social_links_wrap {
@@ -4415,7 +4424,7 @@ label {
   color: var(--heading-color);
 }
 .cs_footer.cs_style_1 .cs_footer_copyright a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 .cs_footer.cs_style_1 .cs_main_footer {
   padding: 75px 0;
@@ -4466,7 +4475,7 @@ label {
   color: var(--accent);
 }
 .cs_footer.cs_style_2 .cs_footer_copyright a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 .cs_footer.cs_style_2 .cs_footer_menu_2 li {
   padding-left: 25px;
@@ -4490,6 +4499,11 @@ label {
 /*--------------------------------------------------------------
   9. Hero
 ----------------------------------------------------------------*/
+.cs_hero.cs_style_1.cs_bg_filed.cs_primary_bg.cs_center .container {
+  /* change this to max-width */
+  width: auto;
+}
+
 .cs_hero.cs_style_1 .cs_hero_text,
 .cs_hero.cs_style_2 .cs_hero_text {
   max-width: 680px;
@@ -5883,7 +5897,7 @@ label {
 }
 
 #commentform p.logged-in-as a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 
 .comment-reply-title small {
@@ -5894,7 +5908,7 @@ label {
 }
 
 .comment-reply-title small a:hover {
-  text-decoration: underline;
+   text-decoration: none;
 }
 
 /* End Comment */

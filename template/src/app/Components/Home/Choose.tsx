@@ -18,8 +18,8 @@ const Choose = () => {
             <div className="cs_why_chose_us_in">
               <div className="cs_section_heading cs_style_1">
               <SectionTitle
-                  Title="Relax we ve got your air climate covered"
-                  SubTitle="Why Choose Us"
+                  Title="Détendez-vous, nous nous occupons de tout"
+                  SubTitle="Pourquoi nous choisir"
               ></SectionTitle>
               </div>
               <div className="cs_height_45 cs_height_lg_45"></div>

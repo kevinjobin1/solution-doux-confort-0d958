@@ -7,14 +7,18 @@ import Image from "next/image";
 
 const Testimonial = () => {
 
-    const sliderRef = useRef(null);
+    const sliderRef = useRef<Slider | null>(null);
 
     const next = () => {
-      sliderRef.current.slickNext();
+      if (sliderRef.current) {
+        sliderRef.current.slickNext();
+      }
     };
   
     const previous = () => {
-      sliderRef.current.slickPrev();
+      if (sliderRef.current) {
+        sliderRef.current.slickPrev();
+      }
     };   
 
     useEffect(() => {
@@ -40,9 +44,9 @@ const Testimonial = () => {
                 <div className="cs_section_heading cs_style_1">
                   <h3 className="cs_section_subtitle cs_accent_color text-uppercase cs_medium cs_fs_20 cs_mb_10">
                     <Image src="/assets/img/icons/fan.svg" alt="Logo" className="cs_section_subheading_icon" width={15} height={15}   />
-                    Testimonials
+                    Témoignages
                   </h3>
-                  <h2 className="cs_section_title cs_white_color cs_fs_48 cs_semibold mb-0">Our Clients Feedback</h2>
+                  <h2 className="cs_section_title cs_white_color cs_fs_48 cs_semibold mb-0">Ce que disent nos clients</h2>
                 </div>
                 <div className="cs_height_45 cs_height_lg_45"></div>
                 <div className="cs_slider cs_style_1">

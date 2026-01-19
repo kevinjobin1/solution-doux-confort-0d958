@@ -26,7 +26,7 @@ const PricingCard = ({Price,Monthly,Title,FeatureList}) => {
         ))}
         </ul>
         <Link href="/contact" className="cs_btn cs_style_1 cs_type_1">
-            <span>Choose Plan</span> 
+            <span>Choisir un plan</span> 
         </Link>
       </div>
     );

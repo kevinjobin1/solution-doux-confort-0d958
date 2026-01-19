@@ -56,19 +56,19 @@ export default function Home() {
         <HomeSlider></HomeSlider>
         <About
                 Img="/assets/img/about_img_1.png"
-                TitleUp="About us"
-                Title="Where every breath feels fresh and cool"
-                Content="Prompt diagnosis and repair of any issues with your air conditioning unit your ensure optimal performance Inspection of ductwork for leaks or damage air followed by sealing to improve energy efficiency"
+                TitleUp="À propos de nous"
+                Title="Où chaque souffle est frais et pur"
+                Content="Diagnostic rapide et réparation de tout problème avec votre unité de climatisation pour assurer des performances optimales. Inspection des conduits pour détecter les fuites ou les dommages, suivie d'une étanchéification pour améliorer l'efficacité énergétique."
                 FeatureList={[
-                    "AirFlow Optimization",
-                    "PureAir Quality Testing",
-                    "FreezeGuard Installation",
-                    "Cool Care Maintenance",
-                    "ClimateControl Checkup",
-                    "ChillOut Emergency Services"
+                    "Optimisation du flux d'air",
+                    "Test de qualité de l'air pur",
+                    "Installation du système FreezeGuard",
+                    "Entretien Cool Care",
+                    "Contrôle ClimateControl",
+                    "Services d'urgence ChillOut",
                 ]}
-                NumberContent="Call any time for Freseir services"
-                Number="(+578) 587 89168"
+                NumberContent="Appelez à tout moment pour les services Freseir"
+                Number="+1 (418) 554-7569"
             ></About>
             <Services></Services>
             <Team></Team>

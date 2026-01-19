@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ContactCard from '../ContactCard/ContactCard';
 import Form3 from '../Form/Form3';
@@ -10,37 +11,37 @@ const Contact = () => {
                 <div className="container">
                     <div className="row cs_gap_y_50">
                     <div className="col-xxl-6 col-lg-7">
-                        <h2 className="cs_fs_48 cs_semibold cs_mb_22">Contact Information</h2>
-                        <p className="cs_mb_30">Our QuickCool Installation service provides fast and efficient installation of new air conditioning units. Our certified technicians will ensure your system is air an  installed correctly and safely,</p>
+                        <h2 className="cs_fs_48 cs_semibold cs_mb_22">Information pour nous joindre</h2>
+                        <p className="cs_mb_30">Besoin d’informations, d’une estimation ou d’une consultation pour un système de chauffage ou de climatisation ? N’hésitez pas à nous contacter pour toute demande d’information sur nos systèmes de chauffage et de climatisation. Un expert-conseil se fera un plaisir de répondre à vos questions.</p>
                         <div className="row cs_gap_y_30 cs_row_gap_30">
                         <ContactCard
                             img="/assets/img/icons/contact_icon_1.svg"
-                            Title="Our Address"
-                            Content="6391 Elgin St. Celina, <br>Delaware 10299"
+                            Title="Notre Adresse"
+                            Content="185 Avenue Saint-Sacrement Québec, QC G1N 3X4"
                         >
                         </ContactCard>
                         <ContactCard
                             img="/assets/img/icons/contact_icon_2.svg"
-                            Title="Phone Number"
-                            Content="+(163)-5565-0697 <br>(+578) 587 89168"
+                            Title="Numéro de téléphone"
+                            Content="+1 (418) 554-7569"
                         >
                         </ContactCard>
                         <ContactCard
                             img="/assets/img/icons/contact_icon_3.svg"
-                            Title="Email Address"
-                            Content="info@gmail.com <br>demo@gmail.com"
+                            Title="Adresse e-mail"
+                            Content="soumissions@solutiondouxconfort.com <br>"
                         >
                         </ContactCard>
                         <ContactCard
                             img="/assets/img/icons/contact_icon_4.svg"
-                            Title="Working Time"
-                            Content="Work Time: Sun - Fri <br>10AM - 6PM"
+                            Title="Heures d'ouverture"
+                            Content="Lundi au Vendredi <br>9h00 à 16h00"
                         >
                         </ContactCard>                        
                         </div>
                         <div className="cs_height_35 cs_height_lg_35"></div>
-                        <h3 className="cs_fs_24 cs_semibold cs_mb_10">Follow The Social Media:</h3>
-                        <p className="cs_mb_20">Ensure your AC system is ready for the hottest days with our Comfort Check Tune-Up</p>
+                        <h3 className="cs_fs_24 cs_semibold cs_mb_10">Suivez les réseaux sociaux :</h3>
+                        <p className="cs_mb_20">Suivez-nous sur les réseaux sociaux pour rester informé des dernières nouvelles et offres spéciales.</p>
                         <div className="cs_social_btns cs_style_1 cs_type_1">
                         <a href="#" className="cs_social_btn cs_center">
                         <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,11 +70,11 @@ const Contact = () => {
                     </div>
                     </div>
                 </div>
-                <div className="cs_height_120 cs_height_lg_80"></div>
+                <div className="cs_height_120 cs_height_lg_80"/>
                 </section>
                 <div className="cs_map">
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd" ></iframe>
-                </div>
+                   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.956001514729!2d-71.26958114560367!3d46.8051725969098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb899c33f78ddc3%3A0x3b6f7042f596f69d!2sSolution%20Doux%20Confort%20inc!5e0!3m2!1sfr!2sca!4v1768775863852!5m2!1sfr!2sca" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                   </div>
 
         </div>
     );

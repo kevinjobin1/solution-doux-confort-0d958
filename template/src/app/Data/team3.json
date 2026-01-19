@@ -1,42 +1,42 @@
 [
   {
-    "img": "/assets/img/team_member_5.jpg",  
+    "img": "/assets/img/team_member_5.jpg",
     "title": "Kathryn Murphy",
-    "subTitle": "Managing Partner"
+    "subTitle": "Associée directrice"
   },
   {
-    "img": "/assets/img/team_member_6.jpg",  
+    "img": "/assets/img/team_member_6.jpg",
     "title": "Marvin McKinney",
-    "subTitle": "President Of Sales"
+    "subTitle": "Président des ventes"
   },
   {
-    "img": "/assets/img/team_member_7.jpg",  
+    "img": "/assets/img/team_member_7.jpg",
     "title": "Darlene Robertson",
-    "subTitle": "Project Manager"
+    "subTitle": "Chef de projet"
   },
   {
-    "img": "/assets/img/team_member_8.jpg",  
+    "img": "/assets/img/team_member_8.jpg",
     "title": "Cameron William",
-    "subTitle": "Managing Partner"
+    "subTitle": "Associé directeur"
   },
   {
-    "img": "/assets/img/team_member_5.jpg",  
+    "img": "/assets/img/team_member_5.jpg",
     "title": "Leslie Alexander",
-    "subTitle": "Managing Partner"
-  }, 
+    "subTitle": "Associée directrice"
+  },
   {
     "img": "/assets/img/team_member_6.jpg",
     "title": "Brooklyn Simmons",
-    "subTitle": "Managing Partner"
-  }, 
+    "subTitle": "Associée directrice"
+  },
   {
-    "img": "/assets/img/team_member_7.jpg",  
+    "img": "/assets/img/team_member_7.jpg",
     "title": "Savannah Nguyen",
-    "subTitle": "MProject Manager"
-  }, 
+    "subTitle": "Chef de projet"
+  },
   {
-    "img": "/assets/img/team_member_6.jpg", 
+    "img": "/assets/img/team_member_6.jpg",
     "title": "Courtney Henry",
-    "subTitle": "Managing Partner"
-  }   
+    "subTitle": "Associée directrice"
+  }
 ]

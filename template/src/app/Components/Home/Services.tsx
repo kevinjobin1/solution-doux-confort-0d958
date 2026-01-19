@@ -7,7 +7,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Services = () => {
-
   useEffect(() => {
     loadBackgroudImages();
   }, []);
@@ -18,8 +17,8 @@ const Services = () => {
       <div className="container">
         <div className="cs_section_heading cs_style_1 text-center">
               <SectionTitle
-                    Title="Breathe Easy Air Quality <br/>Assessment"
-                    SubTitle="our bast servicses"
+                    Title="Évaluation de la qualité de l'air Breathe Easy"
+                    SubTitle="nos meilleurs services"
               ></SectionTitle>
         </div>
         <div className="cs_height_45 cs_height_lg_45"></div>
@@ -32,7 +31,7 @@ const Services = () => {
                 <h3 className="cs_service_card_title cs_fs_24 cs_semibold cs_mb_15">{item.title}</h3>
                 <p className="cs_service_card_subtitle cs_mb_15">{item.desc}</p>
                 <Link href={item.link} className="cs_text_btn cs_fs_14 text-uppercase cs_heading_color cs_bold">
-                  READ MORE
+                  EN SAVOIR PLUS
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.28125 1.21875L13.7812 6.46875C13.9271 6.61458 14 6.79167 14 7C14 7.20833 13.9271 7.38542 13.7812 7.53125L8.28125 12.7812C7.90625 13.0729 7.55208 13.0729 7.21875 12.7812C6.92708 12.4062 6.92708 12.0521 7.21875 11.7188L11.375 7.75H0.75C0.291667 7.70833 0.0416667 7.45833 0 7C0.0416667 6.54167 0.291667 6.29167 0.75 6.25H11.375L7.21875 2.28125C6.92708 1.94792 6.92708 1.59375 7.21875 1.21875C7.55208 0.927083 7.90625 0.927083 8.28125 1.21875Z" fill="currentColor"/>
                   </svg>                    

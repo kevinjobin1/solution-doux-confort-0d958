@@ -13,8 +13,8 @@ const Services2 = () => {
         loadBackgroudImages();
       }, []);
     
-      const [nav1, setNav1] = useState();
-      const [nav2, setNav2] = useState();
+      const [nav1, setNav1] = useState<Slider | undefined>(undefined);
+      const [nav2, setNav2] = useState<Slider | undefined>(undefined);
     
       const settings = {
         dots: false,
@@ -63,14 +63,14 @@ const Services2 = () => {
                 <div className="cs_slider_heading_1">
                     <div className="cs_section_heading cs_style_1">
                     <SectionTitle
-                        SubTitle="Our Services"
-                        Title="Where Every Breath Feels <br/>Fresh And Cool"
+                        SubTitle="Nos Services"
+                        Title="Découvrez nos services de qualité pour votre confort"
                     ></SectionTitle>
                     </div>
                 </div>
                 <div className="cs_height_45 cs_height_lg_45"></div>
                 <div className="cs_service_product_nav slick-slider cs_slider_gap_30 wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.25s">
-                <Slider asNavFor={nav1} ref={slider2 => setNav2(slider2)} {...settingsNavSlider}>
+                <Slider asNavFor={nav1} ref={(slider2: Slider) => setNav2(slider2)} {...settingsNavSlider}>
                 {data.map((item, i) => (
                     <div key={i} className="cs_slide_item_sm">
                     <div className="cs_service_card cs_style_2 text-center cs_center">
@@ -96,7 +96,7 @@ const Services2 = () => {
                 </div>
                 <div className="cs_height_40 cs_height_lg_40"></div>
                 <div className="cs_service_product_thumb slick-slider">
-                <Slider asNavFor={nav2} ref={slider1 => setNav1(slider1)} {...settings}>
+                <Slider asNavFor={nav2} ref={(slider1: Slider) => setNav1(slider1)} {...settings}>
                 {data.map((item, i) => (
                     <div key={i} className="cs_slide_item_lg">
                     <div className="cs_service_card_2_details cs_white_bg">
@@ -122,7 +122,7 @@ const Services2 = () => {
                             ))}
                         </ul>
                         <Link href='/service/service-details' className="cs_btn cs_style_1">
-                            <span>READ MORE</span>
+                            <span>EN SAVOIR PLUS</span>
                             <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.28125 0.71875L13.7812 5.96875C13.9271 6.11458 14 6.29167 14 6.5C14 6.70833 13.9271 6.88542 13.7812 7.03125L8.28125 12.2812C7.90625 12.5729 7.55208 12.5729 7.21875 12.2812C6.92708 11.9062 6.92708 11.5521 7.21875 11.2188L11.375 7.25H0.75C0.291667 7.20833 0.0416667 6.95833 0 6.5C0.0416667 6.04167 0.291667 5.79167 0.75 5.75H11.375L7.21875 1.78125C6.92708 1.44792 6.92708 1.09375 7.21875 0.71875C7.55208 0.427083 7.90625 0.427083 8.28125 0.71875Z" fill="currentColor"></path>
                             </svg>                

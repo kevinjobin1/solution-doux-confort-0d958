@@ -25,32 +25,28 @@ const dm_Sans = DM_Sans({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Arkdin - Air Conditioning Services NextJS Template',
-    template: '%s | Arkdin - Air Conditioning Services NextJS Template',
+    default: 'Solution Doux Confort',
+    template: '%s | Solution Doux Confort',
   },
-  description: 'Arkdin - Air Conditioning Services NextJS Template',
+  description: 'Solution Doux Confort se spécialise dans la climatisation, le chauffage et les thermopompes, offrant des solutions écoénergétiques et adaptées à vos besoins. Confort, fiabilité et expertise sont au cœur de nos services pour un intérieur agréable en toute saison. 4 saisons une solution, Doux Confort!',
   openGraph: {
-    title: 'Arkdin - Air Conditioning Services NextJS Template',
-    description: 'Arkdin - Air Conditioning Services NextJS Template',
-    images: ['/openGraphImage.jpg'],
+    title: 'Solution Doux Confort',
+    description: 'Solution Doux Confort se spécialise dans la climatisation, le chauffage et les thermopompes, offrant des solutions écoénergétiques et adaptées à vos besoins. Confort, fiabilité et expertise sont au cœur de nos services pour un intérieur agréable en toute saison. 4 saisons une solution, Doux Confort!',
+    images: ['/logo-600x269.jpg'],
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}: { children: React.ReactNode }) {
   return (
-    <html suppressHydrationWarning className="!scroll-smooth" lang="en">
+    <html suppressHydrationWarning className="!scroll-smooth" lang="fr">
        <head>
-          <meta name="author" content="Themeservices" />
+          <meta name="author" content="Kevin Jobin - Développement Web" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
         </head>
         <body className={`${outfit.variable} ${dm_Sans.variable}`}>
         <Providers>
           <div className="isolate">
-            <Header variant={'home1'} />
+            <Header />
             {children}
             <Footer />
             <ScrollToTop />

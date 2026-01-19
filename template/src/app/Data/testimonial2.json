@@ -1,44 +1,44 @@
 [
   {
     "img": "/assets/img/avatar_2.png",  
-    "desc": "Not sure what air conditioning system is as best for your home? Our FrostFree Consultation service provides expert",  
-    "title": "Robert Fox",
-    "subTitle": "Project Manager",
-    "review": "Great Services"
+    "desc": "Vous ne savez pas quel système de climatisation convient le mieux à votre maison? Notre service de consultation FrostFree offre des conseils d'experts.",
+    "title": "Robert Fortin",
+    "subTitle": "Gestionnaire de projet",
+    "review": "Excellent service"
   },
   {
     "img": "/assets/img/avatar_3.png",  
-    "desc": "Dust and debris can accumulate in your air conditioning system, reducing its efficiency Our Chill Max Cleaning service",  
-    "title": "Guy Hawkins",
-    "subTitle": "Product support",    
-    "review": "Great Services"
+    "desc": "La poussière et les débris peuvent s'accumuler dans votre système de climatisation, réduisant son efficacité. Notre service Chill Max Nettoyage règle ce problème.",
+    "title": "Guy Tremblay",
+    "subTitle": "Soutien produit",    
+    "review": "Service remarquable"
   },
   {
     "img": "/assets/img/avatar_2.png",  
-    "desc": "Proper calibration of your AC system your ensures even cooling throughout your as  home. Our Breeze Balance",  
-    "title": "Jacob Jones",
-    "subTitle": "Customer success",  
-    "review": "Great Services"
+    "desc": "Un bon calibrage de votre système de climatisation assure un refroidissement uniforme dans toute votre maison. Notre service Équilibre Brise s'en occupe.",
+    "title": "Jacques Gagnon",
+    "subTitle": "Succès client",  
+    "review": "Très satisfait"
   },
   {
     "img": "/assets/img/avatar_1.png",  
-    "desc": "Not sure what air conditioning system is as best for your home? Our FrostFree Consultation service provides expert",  
-    "title": "Robert Fox",
-    "subTitle": "Project Manager",
-    "review": "Great Services"
+    "desc": "Vous ne savez pas quel système de climatisation convient le mieux à votre maison? Notre service de consultation FrostFree offre des conseils d'experts.",
+    "title": "Robert Fortin",
+    "subTitle": "Gestionnaire de projet",
+    "review": "Excellent service"
   },
   {
     "img": "/assets/img/avatar_3.png",  
-    "desc": "Dust and debris can accumulate in your air conditioning system, reducing its efficiency Our Chill Max Cleaning service",  
-    "title": "Guy Hawkins",
-    "subTitle": "Product support",    
-    "review": "Great Services"
+    "desc": "La poussière et les débris peuvent s'accumuler dans votre système de climatisation, réduisant son efficacité. Notre service Chill Max Nettoyage règle ce problème.",
+    "title": "Guy Tremblay",
+    "subTitle": "Soutien produit",    
+    "review": "Service remarquable"
   },
   {
     "img": "/assets/img/avatar_2.png",  
-    "desc": "Proper calibration of your AC system your ensures even cooling throughout your as  home. Our Breeze Balance",  
-    "title": "Jacob Jones",
-    "subTitle": "Customer success",  
-    "review": "Great Services"
+    "desc": "Un bon calibrage de votre système de climatisation assure un refroidissement uniforme dans toute votre maison. Notre service Équilibre Brise s'en occupe.",
+    "title": "Jacques Gagnon",
+    "subTitle": "Succès client",  
+    "review": "Très satisfait"
   } 
 ]

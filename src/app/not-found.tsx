@@ -3,15 +3,14 @@ import NotFound from "@/components/NotFound";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 Page - Solution Doux Confort",
-  description: "Page not found",
+  title: "Erreur 404 - Solution Doux Confort",
+  description: "Oups! La page que vous recherchez n'existe pas.",
 };
 
 const ErrorPage = () => {
   return (
     <>
-      <Breadcrumb pageName="404 Page" />
-
+      <Breadcrumb pageName="Erreur 404" />
       <NotFound />
     </>
   );

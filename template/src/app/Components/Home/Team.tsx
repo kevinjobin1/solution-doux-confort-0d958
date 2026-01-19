@@ -10,11 +10,15 @@ const Team = () => {
     const sliderRef = useRef(null);
 
     const next = () => {
-      sliderRef.current.slickNext();
+      if (sliderRef.current) {
+        (sliderRef.current as any).slickNext();
+      }
     };
   
     const previous = () => {
-      sliderRef.current.slickPrev();
+      if (sliderRef.current) {
+        (sliderRef.current as any).slickPrev();
+      }
     };
      
     const settings = {
@@ -54,8 +58,8 @@ const Team = () => {
               <div className="cs_slider_heading_1">
                 <div className="cs_section_heading cs_style_1">
                 <SectionTitle
-                    Title="Meet Our Team of Expert"
-                    SubTitle="Expert Team"
+                    Title="Rencontrez notre équipe dévouée"
+                    SubTitle="Équipe d'experts"
                 ></SectionTitle>
                 </div>
                 <div className="cs_slider_arrows cs_style_2 cs_hide_md">

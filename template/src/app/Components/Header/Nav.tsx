@@ -1,29 +1,28 @@
 import Link from 'next/link';
 import DropDown from './DropDown';
 
-export default function Nav({ setMobileToggle }) {
+interface NavProps {
+  setMobileToggle: (value: boolean) => void;
+}
+
+export default function Nav({ setMobileToggle }: NavProps) {
   return (
     <ul className="cs_nav_list fw-medium">
-      <li className="menu-item-has-children">
-        <Link href="/">Home</Link>
+      {/* <li className="menu-item-has-children">
+        <Link href="/">Accueil</Link>
         <DropDown>
           <ul>
             <li>
               <Link href="/" onClick={() => setMobileToggle(false)}>
-                Home V1
-              </Link>
-            </li>
-            <li>
-              <Link href="/home2" onClick={() => setMobileToggle(false)}>
-                Home V2
+                Accueil
               </Link>
             </li>
           </ul>
         </DropDown>
-      </li>
+      </li> */}
       <li>
         <Link href="/about" onClick={() => setMobileToggle(false)}>
-          About
+          À propos
         </Link>
       </li>
       <li className="menu-item-has-children">
@@ -39,7 +38,7 @@ export default function Nav({ setMobileToggle }) {
             </li>
             <li>
               <Link href="/service/service-details" onClick={() => setMobileToggle(false)}>
-                Service Details
+                Détails du service
               </Link>
             </li>
           </ul>
@@ -52,22 +51,22 @@ export default function Nav({ setMobileToggle }) {
           <ul>
             <li>
               <Link href="/team" onClick={() => setMobileToggle(false)}>
-                Team
+                Équipe
               </Link>
             </li>
             <li>
               <Link href="/team/team-details" onClick={() => setMobileToggle(false)}>
-                Team Details
+                Détails de l&#39;équipe
               </Link>
             </li>
             <li>
               <Link href="/project" onClick={() => setMobileToggle(false)}>
-                Project
+                Projet
               </Link>
             </li>
             <li>
               <Link href="/project/project-details" onClick={() => setMobileToggle(false)}>
-                 Project Details
+                 Détails du projet
               </Link>
             </li>            
           </ul>
@@ -89,7 +88,7 @@ export default function Nav({ setMobileToggle }) {
                 href="/blog/blog-details"
                 onClick={() => setMobileToggle(false)}
               >
-                Blog Details
+                Détails du blog
               </Link>
             </li>
           </ul>
