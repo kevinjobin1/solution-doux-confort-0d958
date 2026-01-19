@@ -1,9 +1,15 @@
-const Form4 = ({Title,SubTitle}) => {
+import Image from "next/legacy/image";
+type Form4Props = {
+    Title: string;
+    SubTitle: string;
+};
+
+const Form4 = ({ Title, SubTitle }: Form4Props) => {
     return (
         <div className="cs_get_quote_content">
             <div className="cs_section_heading cs_style_1">
             <h3 className="cs_section_subtitle cs_accent_color text-uppercase cs_medium cs_fs_20 cs_mb_10">
-                <img src="/assets/img/icons/fan.svg" alt="" className="cs_section_subheading_icon" />
+                <Image src="/assets/img/icons/fan.svg" alt="subheading" className="cs_section_subheading_icon" />
                { SubTitle }
             </h3>
             <h2 className="cs_section_title cs_fs_48 cs_semibold mb-0">{Title}</h2>
@@ -23,7 +29,7 @@ const Form4 = ({Title,SubTitle}) => {
                     <input type="text" className="cs_form_field" placeholder="Subject" />
                 </div>
                 <div className="col-lg-12">
-                    <textarea className="cs_form_field" cols="30" rows="4" placeholder="Write Message..."></textarea>
+                    <textarea className="cs_form_field" cols={30} rows={4} placeholder="Write Message..."></textarea>
                 </div>
                 <div className="col-lg-12">
                     <button type="submit" className="cs_btn cs_style_1 w-100">

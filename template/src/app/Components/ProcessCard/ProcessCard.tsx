@@ -1,7 +1,13 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
 
-const ProcessCard = ({Title,Content,Img}) => {
+interface ProcessCardProps {
+    Title: string;
+    Content: string;
+    Img: string;
+}
+
+const ProcessCard = ({Title, Content, Img}: ProcessCardProps) => {
     return (
         <div className="cs_card cs_style_1">
             <div className="cs_card_in cs_white_bg">

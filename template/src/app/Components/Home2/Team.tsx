@@ -7,14 +7,14 @@ import Image from "next/legacy/image";
 
 const Team = () => {
 
-    const sliderRef = useRef(null);
+    const sliderRef = useRef<Slider | null>(null);
 
     const next = () => {
-      sliderRef.current.slickNext();
+      sliderRef.current!.slickNext();
     };
   
     const previous = () => {
-      sliderRef.current.slickPrev();
+      sliderRef.current!.slickPrev();
     };
      
     const settings = {

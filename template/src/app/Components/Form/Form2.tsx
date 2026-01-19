@@ -10,7 +10,7 @@ const Form2 = () => {
             </div>
         </div>
         <input type="text" placeholder="Website" className="cs_form_field cs_mb_25" />
-        <textarea cols="30" rows="5" placeholder="Write a message...." className="cs_form_field cs_mb_25"></textarea>
+        <textarea cols={30} rows={5} placeholder="Write a message...." className="cs_form_field cs_mb_25"></textarea>
         <button className="cs_btn cs_style_1 w-100" type="submit">
             <span>Post Comment</span>
         </button>

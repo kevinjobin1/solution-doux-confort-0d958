@@ -44,7 +44,6 @@ const About = () => {
                     <Image
                       src="/images/about/about-image-01.jpg"
                       alt="about image"
-                      fill
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
@@ -55,7 +54,6 @@ const About = () => {
                     <Image
                       src="/images/about/about-image-02.jpg"
                       alt="about image"
-                      fill
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
