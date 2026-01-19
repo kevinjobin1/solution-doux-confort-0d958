@@ -1,6 +1,6 @@
 
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import BlogData from "../../Data/blog.json";
 import Link from "next/link";
 import Form2 from "../Form/Form2";

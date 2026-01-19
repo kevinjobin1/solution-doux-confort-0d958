@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import data from "../../Data/testimonial.json";
 import { useEffect, useRef } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Testimonial = () => {
 

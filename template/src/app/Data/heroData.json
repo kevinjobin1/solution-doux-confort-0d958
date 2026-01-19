@@ -4,24 +4,31 @@
     "subTitle": "Nos services",
     "title": "Installation",
     "desc": "Nous effectuons l’installation de tous nos produits de A à Z. Nos techniciens certifiés sont formés pour installer tous nos produits ainsi que les vôtres. Nous garantissons des délais et des prix très compétitifs. Nos installations sont faites avec des outils et équipements à la fine pointe de la technologie. Nos techniciens sont très minutieux et effectuent les travaux proprement et efficacement, tout en étant à l’écoute de vos besoins.",
-    "img": "/assets/img/hero_img_1.png",    
-    "link": "/about"
+    "img": "/assets/img/camion-3.jpg",    
+    "link": "/contact"
   },
    {
     "bgImg": "/assets/img/hero_bg_2.jpg",
     "subTitle": "Nos services",
-    "title": "Ventes et service 24/7",
-    "desc": "Nous sommes dépositaire de toute la ligne des réputés produits Direct-air. Comprenant climatiseur mural et central, thermopompe murale et centrale, fournaise électrique, échangeur d’air ainsi que tout produit pour vos besoins de confort intérieur de la maison. Nous sommes également en mesure de fournir des produits tel que Gree, Convectair, Franklin, ACD, etc. \nNous offrons un service d’urgence 24 heures sur 24, 7 jours sur 7 pour les pannes de climatisation et de chauffage. Nos techniciens certifiés sont disponibles à toute heure pour répondre à vos besoins urgents et rétablir le confort de votre maison ou entreprise rapidement et efficacement.",
-    "img": "/assets/img/hero_img_2.png",    
-    "link": "/about"
+    "title": "Ventes de produits",
+    "desc": "Nous sommes dépositaire de toute la ligne des réputés produits Direct-air. Comprenant climatiseur mural et central, thermopompe murale et centrale, fournaise électrique, échangeur d’air ainsi que tout produit pour vos besoins de confort intérieur de la maison. Nous sommes également en mesure de fournir des produits tel que Gree, Convectair, Franklin, ACD, etc.",
+    "img": "/assets/img/promo-1.jpg",    
+    "link": "/contact"
   },
   {
     "bgImg": "/assets/img/hero_bg_3.jpg",
     "subTitle": "Nos services",
     "title": "Réparations et entretien",
-    "desc": "Notre département de service après-vente effectue la réparation de toutes marques de produits. Notez que nous sommes en mesure de fournir les pièces d’origine de remplacement. N’hésitez pas à communiquer avec le département de service pour tous besoins en réparation. Nous offrons différents plans d’entretien pour tous vos appareils en climatisation, chauffage et ventilation. Nettoyage, Remplacement des filtres, Vérification des composantes de vos éléments et fournaises, Ajout de réfrigérant, Vérification de l’efficacité de vos systèmes, Plan de vérification et entretien annuel",
-    "img": "/assets/img/hero_img_3.png",    
-    "link": "/about"
+    "desc": "Notre département de service après-vente effectue la réparation de toutes marques de produit et remplacement de pièces d’origine. Nous offrons différents plans d’entretien pour tous vos appareils en climatisation, chauffage et ventilation: Nettoyage, Remplacement des filtres, Vérification des composantes de vos éléments et fournaises, Ajout de réfrigérant, Vérification de l’efficacité de vos systèmes, Plan de vérification et entretien annuel",
+    "img": "/assets/img/realisation-21.jpg",    
+    "link": "/contact"
+  },
+  {
+    "bgImg": "/assets/img/hero_bg_3.jpg",
+    "subTitle": "Nos services",
+    "title": "Service 24/7",
+    "desc": "Nous offrons un service d’urgence 24 heures, 7 jours sur 7 pour les pannes de climatisation et de chauffage. Nos techniciens certifiés sont disponibles à toute heure pour répondre à vos besoins urgents et rétablir le confort de votre maison ou entreprise rapidement et efficacement.",
+    "img": "/assets/img/realisation-22.jpg",    
+    "link": "/contact"
   }
- 
 ]

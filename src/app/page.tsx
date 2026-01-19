@@ -49,28 +49,31 @@ import Process from "@/../template/src/app//Components/Home/Process";
 import Services from "@/../template/src/app//Components/Home/Services";
 import Team from "@/../template/src/app//Components/Home/Team";
 import Testimonial from "@/../template/src/app//Components/Home/Testimonial";
+import Services2 from "../../template/src/app/Components/Home2/Services2";
 
 export default function Home() {
   return (
     <main className="home-page">
         <HomeSlider></HomeSlider>
         <About
-                Img="/assets/img/about_img_1.png"
-                TitleUp="À propos de nous"
-                Title="Où chaque souffle est frais et pur"
-                Content="Diagnostic rapide et réparation de tout problème avec votre unité de climatisation pour assurer des performances optimales. Inspection des conduits pour détecter les fuites ou les dommages, suivie d'une étanchéification pour améliorer l'efficacité énergétique."
+                Img="/assets/img/poster.png"
+                TitleUp="Solution Doux Confort"
+                Title="Tous vos besoins en chauffage, ventilation et climatisation"
+                Content="Nous utilisons les dernières et meilleures technologies pour des économies accrues et une efficacité énergétique optimale. Optez pour les chauffages les plus performants du marché, et économiser sur vos factures. Renouvelle l’air intérieur en introduisant de l’air frais de l’extérieur, améliorant ainsi la qualité de l’air dans un espace tout en préservant la température ambiante. "
                 FeatureList={[
-                    "Optimisation du flux d'air",
-                    "Test de qualité de l'air pur",
-                    "Installation du système FreezeGuard",
-                    "Entretien Cool Care",
-                    "Contrôle ClimateControl",
-                    "Services d'urgence ChillOut",
+                    "Climatisation",
+                    "Chauffage",
+                    "Ventilation",
+                    "Échangeur d'air",
+                    "Thermopompe",
+                    "Réparation et entretien",
+                    "Service 24/7",
+                    "Vente de pièces et installation"
                 ]}
-                NumberContent="Appelez à tout moment pour les services Freseir"
+                NumberContent="Appelez-nous dès maintenant"
                 Number="+1 (418) 554-7569"
             ></About>
-            <Services></Services>
+            <Services2></Services2>
             <Team></Team>
             <Choose></Choose>
             <Pricing></Pricing>

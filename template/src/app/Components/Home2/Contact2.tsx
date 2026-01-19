@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import Form4 from "../Form/Form4";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Contact2 = () => {
 

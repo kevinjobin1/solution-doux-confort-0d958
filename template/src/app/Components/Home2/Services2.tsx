@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { useEffect, useState } from "react";
 import data from '../../Data/service2.json';
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Services2 = () => {
 
@@ -72,17 +72,17 @@ const Services2 = () => {
                 <div className="cs_service_product_nav slick-slider cs_slider_gap_30 wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.25s">
                 <Slider asNavFor={nav1} ref={(slider2: Slider) => setNav2(slider2)} {...settingsNavSlider}>
                 {data.map((item, i) => (
-                    <div key={i} className="cs_slide_item_sm">
+                    <div key={i} className="cs_slide_item_sm ">
                     <div className="cs_service_card cs_style_2 text-center cs_center">
                         <div className="cs_service_card_in">
-                        <div className="cs_service_card_icon cs_mb_20">
-                          <Image src={item.icon} alt="img" width={60} height={60}   />
+                        <div className="cs_service_card_icon cs_mb_20 ">
+                          <Image src={item.icon} alt="img" width={60} height={60}  />
                         </div>
                         <h3 className="cs_service_card_title cs_fs_24 cs_semibold mb-0">{item.SubTitle}</h3>
                         </div>
-                        <div className="cs_service_card_bg">
-                        <Image src="/assets/img/shapes/service_shape_1.svg" className="cs_service_card_shape_1" alt="img" width={71} height={69}   />
-                        <Image src="/assets/img/shapes/service_shape_1.svg" className="cs_service_card_shape_2" alt="img" width={71} height={69}   />
+                        <div className="cs_service_card_bg ">
+                        <Image src="/assets/img/shapes/service_shape_1.svg" className="cs_service_card_shape_1" alt="img" width={71} height={69} />
+                        <Image src="/assets/img/shapes/service_shape_1.svg" className="cs_service_card_shape_2" alt="img" width={71} height={69} />
                         <svg width="282" height="229" viewBox="0 0 282 229" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 9C0 6.23858 2.23858 4 5 4H277C279.761 4 282 6.23858 282 9V189.6C282 196.796 276.889 202.979 269.821 204.332L163.569 224.678C148.658 227.534 133.342 227.534 118.431 224.678L12.1789 204.332C5.11085 202.979 0 196.796 0 189.6V9Z" fill="#FF5500"/>
                             <path d="M0 5C0 2.23857 2.23858 0 5 0H277C279.761 0 282 2.23858 282 5V187.426C282 194.7 276.781 200.925 269.619 202.195L161.95 221.285C148.091 223.743 133.909 223.743 120.05 221.285L12.3813 202.195C5.21895 200.925 0 194.7 0 187.426V5Z" fill="white"/>
@@ -107,7 +107,7 @@ const Services2 = () => {
                         {item.Features.map((Feature, index) => (
                             <li key={index}>
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="9" cy="9" r="8" stroke="currentColor" strokeWidth="2"/>
+                                <circle cx="9" cy="9" r="8" stroke="currentColor" strokeWidth=""/>
                                 <g>
                                 <path d="M13.7676 5.63463C13.4582 5.32482 12.9558 5.32501 12.646 5.63463L7.59787 10.683L5.35419 8.4393C5.04438 8.12949 4.54217 8.12949 4.23236 8.4393C3.92255 8.74912 3.92255 9.25132 4.23236 9.56113L7.03684 12.3656C7.19165 12.5204 7.39464 12.598 7.59765 12.598C7.80067 12.598 8.00386 12.5206 8.15867 12.3656L13.7676 6.75644C14.0775 6.44684 14.0775 5.94443 13.7676 5.63463Z" fill="currentColor"/>
                                 </g>

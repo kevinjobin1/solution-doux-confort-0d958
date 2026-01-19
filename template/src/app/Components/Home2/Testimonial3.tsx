@@ -4,7 +4,7 @@ import data from '../../Data/testimonial2.json';
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Testimonial3 = () => {
 

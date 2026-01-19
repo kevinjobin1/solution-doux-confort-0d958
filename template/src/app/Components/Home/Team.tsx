@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import data from "../../Data/team.json";
 import { useRef } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Team = () => {
 

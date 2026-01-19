@@ -4,7 +4,7 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import Slider from "react-slick";
 import data from "../../Data/homeSlider2.json";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const HomeSlider2 = () => {
 

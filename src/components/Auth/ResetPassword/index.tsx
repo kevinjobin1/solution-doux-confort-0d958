@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import Loader from "@/components/Common/Loader";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const ResetPassword = ({ token }: { token: string }) => {
   const [data, setData] = useState({

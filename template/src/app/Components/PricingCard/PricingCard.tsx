@@ -1,7 +1,14 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
-const PricingCard = ({Price,Monthly,Title,FeatureList}) => {
+type PricingCardProps = {
+  Price: number | string;
+  Monthly: string;
+  Title: string;
+  FeatureList: string[];
+};
+
+const PricingCard = ({Price,Monthly,Title,FeatureList}: PricingCardProps) => {
     return (
         <div className="cs_pricing_plan cs_style_1">
           <Image src="/assets/img/shapes/price_shape.svg" className="cs_pricing_shape" alt="Logo" width={76} height={72}   />
@@ -26,7 +33,7 @@ const PricingCard = ({Price,Monthly,Title,FeatureList}) => {
         ))}
         </ul>
         <Link href="/contact" className="cs_btn cs_style_1 cs_type_1">
-            <span>Choisir un plan</span> 
+            <span>Choisir ce plan</span> 
         </Link>
       </div>
     );

@@ -14,7 +14,7 @@ export default function Home() {
     <main className="home-page">
         <HomeSlider></HomeSlider>
         <About
-                Img="/assets/img/about_img_1.png"
+                Img="/assets/img/camion-2.png"
                 TitleUp="About us"
                 Title="Where every breath feels fresh and cool"
                 Content="Prompt diagnosis and repair of any issues with your air conditioning unit your ensure optimal performance Inspection of ductwork for leaks or damage air followed by sealing to improve energy efficiency"

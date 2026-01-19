@@ -1880,6 +1880,7 @@ label {
 }
 
 .cs_btn.cs_style_1 {
+  text-decoration: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1901,6 +1902,7 @@ label {
   background-color: var(--accent);
   position: relative;
 }
+
 @media (max-width: 991px) {
   .cs_btn.cs_style_1 {
     padding: 12px 22px;
@@ -1909,10 +1911,12 @@ label {
 .cs_btn.cs_style_1::before {
   content: "";
   position: absolute;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   height: 100%;
   width: 100%;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
   background-color: var(--heading-color);
   opacity: 0;
   -webkit-transition: all 0.3s ease;
@@ -3297,6 +3301,20 @@ label {
   padding-top: 56.25%;
 }
 
+.facebook-responsive::before{
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .embed-responsive iframe,
 .embed-responsive video {
   position: absolute;
@@ -4507,6 +4525,9 @@ label {
 .cs_hero.cs_style_1 .cs_hero_text,
 .cs_hero.cs_style_2 .cs_hero_text {
   max-width: 680px;
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 10px;
   position: relative;
   z-index: 1;
 }
@@ -4587,9 +4608,10 @@ label {
     display: none;
   }
 }
-.cs_hero.cs_style_1 .cs_hero_img img {
+.cs_hero.cs_style_1 .cs_hero_img img, .cs_hero.cs_style_1 .cs_hero_img video {
   height: 100%;
 }
+
 .cs_hero.cs_style_1 .cs_hero_player_btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6973,10 +6995,13 @@ label {
   position: relative;
 }
 .cs_why_chose_us.cs_style_1 .cs_why_chose_us_in {
-  max-width: 600px;
-  position: relative;
   z-index: 2;
+  max-width: 600px;
   margin-left: 34%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.18);
+  padding: 50px 40px 50px 60px;
 }
 @media (max-width: 991px) {
   .cs_why_chose_us.cs_style_1 .cs_why_chose_us_in {
@@ -7055,7 +7080,7 @@ label {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-
+  color: #ffffff70;
   position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -7143,7 +7168,7 @@ label {
     display: none !important;
   }
 }
-.homeSlider-area .slick-dots::before {
+/* .homeSlider-area .slick-dots::before {
   background: -webkitGradient(linear, left top, left bottom, from(rgba(1, 15, 52, 0.7)), to(#fff));
   background: linear-gradient(180deg, rgba(1, 15, 52, 0.7) 0%, #fff 100%);
   bottom: 100%;
@@ -7160,7 +7185,7 @@ label {
   background: -webkitGradient(linear, left bottom, left top, from(rgba(1, 15, 52, 0.7)), to(#fff));
   background: linear-gradient(0deg, rgba(1, 15, 52, 0.7) 0%, #fff 100%);
   top: 100%;
-}
+} */
 .homeSlider-area2 .slick-dots::before {
   background: -webkitGradient(linear, left top, left bottom, from(rgba(1, 15, 52, 0.7)), to(#fff));
   background: linear-gradient(180deg, rgba(1, 15, 52, 0.7) 0%, #fff 100%);

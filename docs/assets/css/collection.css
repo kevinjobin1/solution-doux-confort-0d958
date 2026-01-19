@@ -7061,9 +7061,20 @@ button.list-group-item-danger.active:hover {
 	padding-bottom: 56.25%
 }
 
-.embed-responsive-4by3 {
-	padding-bottom: 75%
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 
 .well {
 	min-height: 20px;

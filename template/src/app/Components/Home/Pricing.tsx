@@ -14,13 +14,13 @@ const Pricing = () => {
               <div className="cs_slider_heading_1">
                 <div className="cs_section_heading cs_style_1">
                 <SectionTitle
-                    Title="Là où le confort rencontre <br/> l'efficacité"
-                    SubTitle="Notre plan tarifaire"
+                    Title="Offres de prix adaptées à vos besoins"
+                    SubTitle="Nos plans offerts"
                 ></SectionTitle>
                 </div>
                 <ul className="cs_tab_links cs_style_2 cs_semibold cs_heading_font cs_mp_0 cs_heading_color">
-                  <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Mensuel</a></li>
-                  <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Annuel</a></li>
+                  <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Par mois</a></li>
+                  <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Par an</a></li>
                 </ul>
               </div>
               <div className="cs_height_45 cs_height_lg_45"></div>
@@ -30,7 +30,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                        <PricingCard
                         Price="150"
-                        Monthly="Mensuel"
+                        Monthly="/ mois"
                         Title="Plan de base"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",
@@ -45,7 +45,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="200"
-                        Monthly="Mensuel"
+                        Monthly="/ mois"
                         Title="Plan standard"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",
@@ -60,7 +60,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="250"
-                        Monthly="Mensuel"
+                        Monthly="/ mois"
                         Title="Plan premium"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",
@@ -79,7 +79,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="350"
-                        Monthly="Annuel"
+                        Monthly="/ an"
                         Title="Plan de base"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",
@@ -94,7 +94,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="500"
-                        Monthly="Annuel"
+                        Monthly="/ an"
                         Title="Plan standard"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",
@@ -109,7 +109,7 @@ const Pricing = () => {
                     <div className="col-lg-4">
                     <PricingCard
                         Price="600"
-                        Monthly="Annuel"
+                        Monthly="/ an"
                         Title="Plan premium"
                         FeatureList={[ 
                             "Réparation et détection de fuites de réfrigérant",

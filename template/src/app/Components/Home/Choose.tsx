@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import data from "../../Data/choose.json";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Choose = () => {
 
@@ -12,14 +12,14 @@ const Choose = () => {
       }, []);
       
     return (
-        <section className="cs_why_chose_us cs_style_1 cs_bg_filed overflow-hidden" data-background="/assets/img/why_chose_us_bg_1.jpg">
+        <section className="cs_why_chose_us cs_style_1 cs_bg_filed overflow-hidden" data-background="/assets/img/camion-4.jpg" >
           <div className="cs_height_115 cs_height_lg_70"></div>
           <div className="container wow fadeInRight" data-wow-duration="0.9s" data-wow-delay="0.25s">
             <div className="cs_why_chose_us_in">
               <div className="cs_section_heading cs_style_1">
               <SectionTitle
-                  Title="Détendez-vous, nous nous occupons de tout"
-                  SubTitle="Pourquoi nous choisir"
+                  Title="Une urgence ? Nous sommes là pour vous aider!"
+                  SubTitle="Service 24/7"
               ></SectionTitle>
               </div>
               <div className="cs_height_45 cs_height_lg_45"></div>

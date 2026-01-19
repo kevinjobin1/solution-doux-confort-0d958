@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Cta = () => {
 

@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import data from "../../Data/accordion.json";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Faq = () => {
 
@@ -30,10 +30,10 @@ const Faq = () => {
     }, [firstItemOpen]);
 
     const FaqContent = {
-      img1:'/assets/img/faq_img_1.jpg',
-      img2:'/assets/img/faq_img_2.jpg',
+      img1:'/assets/img/product-1.jpg',
+      img2:'/assets/img/product-2.jpg',
       Experience:'+25',
-      BestAward:'Service d\'urgence 24/7',
+      BestAward:'Dépositaire des grandes marques',
       Content:'Nous sommes là pour répondre à toutes vos questions sur nos services de climatisation et de chauffage. Consultez nos FAQ ci-dessous pour en savoir plus sur la façon dont nous pouvons vous aider à maintenir un environnement intérieur confortable toute l\'année.'
     }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 const NotFound = () => {
@@ -11,14 +11,16 @@ const NotFound = () => {
             <div className="relative mx-auto aspect-[129/138] max-w-[357px] text-center">
               <Image
                 src="/images/404.svg"
+                width={327}
+                height={138}
                 alt="image"
-                fill
                 className="mx-auto max-w-full dark:hidden"
               />
               <Image
                 src="/images/404-dark.svg"
+                  width={327}
+                height={138}
                 alt="image"
-                fill
                 className="mx-auto hidden max-w-full dark:block"
               />
             </div>

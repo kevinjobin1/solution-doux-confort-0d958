@@ -1,6 +1,6 @@
 import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Blog = () => {
     return (

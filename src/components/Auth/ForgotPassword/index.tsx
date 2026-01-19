@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 import Loader from "@/components/Common/Loader";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

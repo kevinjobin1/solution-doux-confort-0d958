@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import data from '../../Data/project.json';
 import SectionTitle from "../Common/SectionTitle";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Project2 = () => {
 
