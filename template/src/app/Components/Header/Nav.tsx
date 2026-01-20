@@ -27,18 +27,18 @@ export default function Nav({ setMobileToggle }: NavProps) {
       </li>
       <li className="menu-item-has-children">
         <Link href="/service" onClick={() => setMobileToggle(false)}>
-          Services
+          Nos services
         </Link>
         <DropDown>
           <ul>
             <li>
               <Link href="/service" onClick={() => setMobileToggle(false)}>
-                Services
+                Spécialités
               </Link>
             </li>
             <li>
               <Link href="/service/service-details" onClick={() => setMobileToggle(false)}>
-                Détails du service
+                Plans d'entretien
               </Link>
             </li>
           </ul>
@@ -46,27 +46,27 @@ export default function Nav({ setMobileToggle }: NavProps) {
 
       </li>      
       <li className="menu-item-has-children">
-        <Link href="#">Pages</Link>
+        <Link href="#">Entreprise</Link>
         <DropDown>
           <ul>
             <li>
               <Link href="/team" onClick={() => setMobileToggle(false)}>
-                Équipe
+                Notre équipe
               </Link>
             </li>
             <li>
               <Link href="/team/team-details" onClick={() => setMobileToggle(false)}>
-                Détails de l&#39;équipe
+                Direction
               </Link>
             </li>
             <li>
               <Link href="/project" onClick={() => setMobileToggle(false)}>
-                Projet
+                Photos
               </Link>
             </li>
             <li>
               <Link href="/project/project-details" onClick={() => setMobileToggle(false)}>
-                 Détails du projet
+                 Nos réalisations
               </Link>
             </li>            
           </ul>
@@ -74,7 +74,7 @@ export default function Nav({ setMobileToggle }: NavProps) {
       </li>
       <li className="menu-item-has-children">
         <Link href="/blog" onClick={() => setMobileToggle(false)}>
-          Blog
+          Publications
         </Link>
         <DropDown>
           <ul>
@@ -88,7 +88,7 @@ export default function Nav({ setMobileToggle }: NavProps) {
                 href="/blog/blog-details"
                 onClick={() => setMobileToggle(false)}
               >
-                Détails du blog
+                Articles
               </Link>
             </li>
           </ul>
@@ -96,7 +96,7 @@ export default function Nav({ setMobileToggle }: NavProps) {
       </li>
       <li>
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
-          Contact
+          Nous rejoindre
         </Link>
       </li>
     </ul>

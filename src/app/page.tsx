@@ -73,12 +73,13 @@ export default function Home() {
                 NumberContent="Appelez-nous dès maintenant"
                 Number="+1 (418) 554-7569"
             ></About>
-            <Services2></Services2>
-            <Team></Team>
+           
             <Choose></Choose>
             <Pricing></Pricing>
             <Testimonial></Testimonial>
+             <Services></Services>
             <Faq></Faq>
+            <Team></Team>
             <Process></Process>
             <Blog></Blog>
     </main>

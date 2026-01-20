@@ -7,15 +7,15 @@ import Image from "next/legacy/image";
 const Footer = () => {
 
     const Services = [
-        'Installation',
-        'Maintenance',
-        'Réparation',
+        'Thermopompes',
+        'Ventillation',
+        'Échangeurs d\'air',
         'Climatisation résidentielle',
         'Climatisation commerciale',
         'Chauffage résidentiel',
         'Chauffage commercial',
-        'Thermopompes',
-        'Systèmes HVAC',
+        'Vente de pièces et installation',
+        'Réparations, entretiens et maintenance',
         'Services d\'urgence 24/7'
       ];
     const WorkingHours = [
@@ -63,11 +63,11 @@ const Footer = () => {
                     </Link> */}
                   
                 </div>
-                <div className="cs_footer_logo wow zoomIn" data-wow-duration="0.9s" data-wow-delay="0.25s">
+                {/* <div className="cs_footer_logo wow zoomIn" data-wow-duration="0.9s" data-wow-delay="0.25s">
                   <Link href="/">
-                    <Image src="/logo-600x269.png" alt="Logo" width={139} height={111}   />
+                    <Image src="/assets/img/icons/logo.svg" alt="Logo" width={139} height={111}   />
                   </Link> 
-                  </div> 
+                </div>  */}
                 <div className="cs_footer_contact_card">
                   <div className="cs_footer_contact_card_icon cs_white_bg cs_center">
                     <Image src="/assets/img/icons/call.svg" alt="img" width={25} height={25}   />
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                     <ul className="cs_footer_menu_2">
                     {Services.map((item, i) => ( 
-                      <li key={i}><Link href="/service/service-details">{item}</Link></li>
+                      <li key={i}><Link className="text-decoration-none cs_white_color" href="/service/service-details">{item}</Link></li>
                     ))}
                     </ul>
                   </div>
@@ -109,7 +109,7 @@ const Footer = () => {
                     <ul className="cs_working_hours">
                     {WorkingHours.map((item, i) => (                        
                       <li key={i}>
-                        <span>{item.day}</span>
+                        <span className="fw-bold">{item.day}</span>
                         <span>{item.time}</span>
                       </li>
                      ))}
@@ -126,7 +126,7 @@ const Footer = () => {
                     </div>
                     <ul className="cs_footer_menu_2">
                     {QuickLinks.map((item, i) => ( 
-                      <li key={i}><Link href={item.link}>{item.title} </Link></li>
+                      <li key={i}><Link className="text-decoration-none cs_white_color" href={item.link}>{item.title} </Link></li>
                     ))}
                     </ul>
                   </div>
@@ -187,11 +187,11 @@ const Footer = () => {
           <div className="cs_footer_bottom cs_accent_bg cs_white_color">
             <div className="container">
               <div className="cs_footer_bottom_in">
-                <div className="cs_footer_copyright">Tous droits réservés (c) 2026- <Link href="/">Solution Doux Confort inc.</Link></div>
+                <div className="cs_footer_copyright fw-lighter ">Tous droits réservés (c) 2026- Solution Doux Confort inc.</div>
                 <ul className="cs_footer_menu cs_mp_0">
-                  <li><Link href="#">Paramètres & Confidentialité </Link></li>
-                  <li><Link href="#">FAQ</Link></li>
-                  <li><Link href="#">Support</Link></li>
+                  <li><Link className="text-decoration-none cs_white_color" href="/">Paramètres & Confidentialité </Link></li>
+                  <li><Link className="text-decoration-none cs_white_color" href="/faq">FAQ</Link></li>
+                  <li><Link className="text-decoration-none cs_white_color" href="/contact">Support</Link></li>
                 </ul>
               </div>
             </div>
