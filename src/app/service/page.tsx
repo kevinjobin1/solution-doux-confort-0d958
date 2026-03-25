@@ -9,7 +9,10 @@ const page = () => {
     return (
         <div className='service-page'>
             <BreadCumb Title="Nos services"></BreadCumb>
-            <Services2></Services2>
+            <Services2
+                Title="Découvrez nos services de qualité pour votre confort"
+                SubTitle="Nos Services"
+            ></Services2>
             <Cta></Cta>
             <Pricing></Pricing>
         </div>

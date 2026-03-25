@@ -9,7 +9,7 @@ const Form4 = ({ Title, SubTitle }: Form4Props) => {
         <div className="cs_get_quote_content">
             <div className="cs_section_heading cs_style_1">
             <h3 className="cs_section_subtitle cs_accent_color text-uppercase cs_medium cs_fs_20 cs_mb_10">
-                <Image src="/assets/img/icons/fan.svg" alt="subheading" className="cs_section_subheading_icon" />
+                <Image src="/assets/img/icons/fan.svg" alt="subheading" className="cs_section_subheading_icon" width={24} height={24} />
                { SubTitle }
             </h3>
             <h2 className="cs_section_title cs_fs_48 cs_semibold mb-0">{Title}</h2>

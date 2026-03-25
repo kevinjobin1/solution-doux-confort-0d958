@@ -50,7 +50,6 @@ import Services from "@/../template/src/app//Components/Home/Services";
 import Team from "@/../template/src/app//Components/Home/Team";
 import Testimonial from "@/../template/src/app//Components/Home/Testimonial";
 import Services2 from "../../template/src/app/Components/Home2/Services2";
-
 export default function Home() {
   return (
     <main className="home-page">
@@ -58,8 +57,8 @@ export default function Home() {
         <About
                 Img="/assets/img/poster.png"
                 TitleUp="Solution Doux Confort"
-                Title="Tous vos besoins en chauffage, ventilation et climatisation"
-                Content="Nous utilisons les dernières et meilleures technologies pour des économies accrues et une efficacité énergétique optimale. Optez pour les chauffages les plus performants du marché, et économiser sur vos factures. Renouvelle l’air intérieur en introduisant de l’air frais de l’extérieur, améliorant ainsi la qualité de l’air dans un espace tout en préservant la température ambiante. "
+                Title="Des spécialistes du confort résidentiel fait de la bonne façon"
+                Content="Créée en 2019, Solution Doux Confort est née de la collaboration de passionnés cumulant plus de 30 ans d’expérience. Chauffage, climatisation et qualité de l’air : chaque installation est pensée pour être fiable, efficace et durable. Choisir Solution Doux Confort, c’est choisir le confort sans compromis, en été comme en hiver!"
                 FeatureList={[
                     "Climatisation",
                     "Chauffage",
@@ -68,12 +67,12 @@ export default function Home() {
                     "Thermopompe",
                     "Réparation et entretien",
                     "Service 24/7",
-                    "Vente de pièces et installation"
+                    "Travaux d'électricité"
                 ]}
                 NumberContent="Appelez-nous dès maintenant"
                 Number="+1 (418) 554-7569"
+                ActionTitle="Demander un devis"
             ></About>
-           
             <Choose></Choose>
             <Pricing></Pricing>
             <Testimonial></Testimonial>

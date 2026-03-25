@@ -1,50 +1,68 @@
 [
   {
-    "img": "/assets/img/team_member_1.png",
-    "title": "Catherine Morin",
-    "subTitle": "Associée directrice",
-    "number": "(514) 444-0245"
+    "img": "/assets/img/team/danny-doucet.jpeg",
+    "title": "Danny Doucet",
+    "subTitle": "Propriétaire, administration, technicien, frigoriste",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_2.png",
-    "title": "Marvin McKinney",
-    "subTitle": "Président des ventes",
-    "number": "(418) 213-1254"
+    "img": "/assets/img/team/jean-francois-lambert.jpeg",
+    "title": "Jean-François Lambert",
+    "subTitle": "Technicien, frigoriste, installation et service actionnaire",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_3.png",
-    "title": "Darlène Robert",
-    "subTitle": "Gestionnaire de projet",
-    "number": "(438) 543-2352"
+    "img": "/assets/img/team/audrey-demers.jpeg",
+    "title": "Audrey Demers",
+    "subTitle": "Directrice adjointe, administration, service après-vente",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_4.png",
-    "title": "Cameron William",
-    "subTitle": "Associé directeur",
-    "number": "(450) 122-3215"
+    "img": "/assets/img/team/charles-tessier-theriault.jpeg",
+    "title": "Charles Tessier",
+    "subTitle": "Directeur des ventes et marketing, représentant",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_9.png",
-    "title": "Léa Alexandre",
-    "subTitle": "Associée directrice",
-    "number": "(514) 444-0845"
+    "img": "/assets/img/team/tommy-lantier.jpeg",
+    "title": "Tommy Lantier",
+    "subTitle": "Chef d’équipe, technicien, frigoriste et installation",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_10.png",
-    "title": "Brooklyn Simard",
-    "subTitle": "Associée directrice",
-    "number": "(581) 091-2734"
+    "img": "/assets/img/team/william-landry.jpeg",
+    "title": "William Landry",
+    "subTitle": "Chef d’équipe, installation et service actionnaire",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_11.png",
-    "title": "Savannah Nguyen",
-    "subTitle": "Gestionnaire de projet",
-    "number": "(819) 474-0845"
+    "img": "/assets/img/team/corentin-gourdon.jpeg",
+    "title": "Corentin Gourdon",
+    "subTitle": "Directeur de la division électrique, compagnon-électricien et installation",
+    "number": "(418) 554-7569"
   },
   {
-    "img": "/assets/img/team_member_12.png",
-    "title": "Courtney Henry",
-    "subTitle": "Associée directrice",
-    "number": "(418) 444-0765"
+    "img": "/assets/img/team/ghislain-lebel.jpeg",
+    "title": "Ghislain Lebel",
+    "subTitle": "Technicien, frigoriste, installation et ferblanterie",
+    "number": "(418) 554-7569"
+  },
+  {
+    "img": "/assets/img/team/yohan-tremblay.jpeg",
+    "title": "Yohan Tremblay",
+    "subTitle": "Technicien, frigoriste, installation",
+    "number": "(418) 554-7569"
+  },
+  {
+    "img": "/assets/img/team/antoine-tanguay.jpeg",
+    "title": "Antoine Tanguay",
+    "subTitle": "Représentant et conseiller",
+    "number": "(418) 554-7569"
+  },
+  {
+    "img": "/assets/img/team/gabriel-berthiaume.jpeg",
+    "title": "Gabriel Berthiaume",
+    "subTitle": "Représentant et conseiller",
+    "number": "(418) 554-7569"
   }
 ]

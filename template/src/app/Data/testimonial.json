@@ -1,20 +1,38 @@
 [
   {
-    "img": "/assets/img/avatar_1.png",
-    "desc": "Nous avons fait affaire avec Doux Confort pour l’installation de notre thermopompe et nous sommes très satisfaits du service reçu! Les installateurs Tomy et Ghislain ont fait un travail impeccable, avec beaucoup de professionnalisme et d’attention aux détails. Service rapide, courtois et très propre. Nous recommandons sans hésiter!",
-    "title": "Nadine Verret",
-    "subTitle": "Il y a 1 mois"
+    "img": "/assets/img/reviews/carine-crampon.png",
+    "desc": "Très bon service par toute l'équipe ! Merci à Antoine pour ses conseils et à William pour son professionnalisme et sa gentillesse. Je recommande pleinement cette entreprise.",
+    "title": "Carine Crampon",
+    "subTitle": "Il y a un mois"
   },
   {
-    "img": "/assets/img/avatar_1.png",
-    "desc": "Super service pour l'installation par Yannik et Nidal. Des travailleurs minutieux et soucieux du détail. Le projet était complexe de part le positionnement des unités et l'exécution était parfaite pour mes besoins. Du côté d'innovaclim, service de vente sans casse tête , personnalisé et impeccable de la part de Vincent!",
+    "img": "/assets/img/reviews/alexandra-vigneault.png",
+    "desc": "Excellent service de Gabriel à la vente. Il a pris le temps de m’expliquer les différences. À l’installation, super travail de Tommy et Ghislain. Ils ont fait une belle job super propre.",
+    "title": "Alexandra Vigneault",
+    "subTitle": "Il y a 3 mois"
+  },
+  {
+    "img": "/assets/img/reviews/pierre-julien-albert.png",
+    "desc": "Super service pour l'installation par Yannik et Nidal. Des travailleurs minutieux et soucieux du détail. [...] Service de vente sans casse tête, personnalisé et impeccable de la part de Vincent!",
     "title": "Pierre-Julien Albert",
-    "subTitle": "Il y a 7 mois"
+    "subTitle": "Il y a 9 mois"
   },
   {
-    "img": "/assets/img/avatar_1.png",
-    "desc": "Excellent service du début à la fin ! Le conseiller connaissait très bien ses produits et a su bien nous guider. L’installation a été faite de façon professionnelle par une équipe compétente et efficace. Tout le processus s’est déroulé sans problème. Une entreprise fiable et agréable avec qui faire affaire. Je recommande sans hésiter!",
-    "title": "Philippe Boivin",
+    "img": "/assets/img/reviews/jenny-pruneau-doucet.png",
+    "desc": "Service exceptionnel du début à la fin ! L’équipe de Solution Doux Confort est professionnelle, à l’écoute et très réactive. Travail soigné, ponctualité respectée et un véritable souci du détail.",
+    "title": "Jenny-Pruneau Doucet",
     "subTitle": "Il y a 5 mois"
+  },
+  {
+    "img": "/assets/img/reviews/vincent-masson-boutin.png",
+    "desc": "Installation très professionnel et rapide. La réalisation des travaux a pu être fait en moins d’une semaine après la réception de la soumission. Je recommande à 100%.",
+    "title": "Vincent Masson-Boutin",
+    "subTitle": "Il y a 2 semaines"
+  },
+  {
+    "img": "/assets/img/reviews/eric-fortier.png",
+    "desc": "Super service! Le représentant, Charles, a su répondre à nos questions et cibler nos besoins. L'équipe d'installation a été courtoise, professionnelle en laissant les lieux propres.",
+    "title": "Éric Fortier",
+    "subTitle": "Il y a 1 an"
   }
 ]

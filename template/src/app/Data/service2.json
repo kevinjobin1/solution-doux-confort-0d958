@@ -1,92 +1,97 @@
 [
   {
-    "icon": "/assets/img/icons/service_icon_7.svg",
-    "SubTitle": "Solutions de Filtration d'Air",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_1.png",
+    "slug": "vente-de-systemes-cvc",
+    "name": "Vente de systèmes CVC",
+    "SubTitle": "Vente de systèmes de confort",
+    "title": "Conseils et produits adaptés à vos besoins",
+    "desc": "Procurez-vous les meilleurs produits de grands fabricants (Direct-air, Tosot, Gree, Convectair, Franklin, ACD, etc.) pour le chauffage, la climatisation et la qualité de l’air. Nos experts vous guident pour trouver la solution idéale.",
+    "img": "/assets/img/service_details_vente.png",
+    "iconName": "FaTools",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Climatiseurs muraux et centraux",
+      "Thermopompes murales et centrales",
+      "Fournaises électriques",
+      "Échangeurs d’air",
+      "Humidificateurs et déshumidificateurs",
+      "Systèmes de filtration"
     ]
   },
   {
-    "icon": "/assets/img/icons/service_icon_8.svg",
-    "SubTitle": "Tests de Qualité de l'Air Intérieur",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_2.png",
+    "slug": "reparation-et-commandes-de-pieces",
+    "name": "Réparation et commandes de pièces",
+    "SubTitle": "Réparation toutes marques",
+    "title": "Service après-vente rapide et efficace",
+    "desc": "Diagnostic et réparation de toutes marques d’appareils de chauffage, climatisation et ventilation. Pièces d’origine disponibles. Intervention rapide pour rétablir votre confort.",
+    "img": "/assets/img/df39a39c-4da3-4646-ae5b-4d3352bffd00.jpeg",
+    "iconName": "FaWrench",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Diagnostic rapide",
+      "Réparation toutes marques",
+      "Pièces d’origine de remplacement",
+      "Service après-vente dédié"
     ]
   },
   {
-    "icon": "/assets/img/icons/service_icon_9.svg",
-    "SubTitle": "Protection Chill Guard",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_4.png",
+    "slug": "entretien-inspection-et-nettoyage",
+    "name": "Entretien, inspection et nettoyage",
+    "SubTitle": "Entretien préventif et nettoyage",
+    "title": "Prolongez la durée de vie de vos appareils",
+    "desc": "Plans d’entretien pour tous vos appareils en climatisation, chauffage et ventilation. Nettoyage, vérification, remplacement de filtres, ajout de réfrigérant, contrôle d’efficacité.",
+    "img": "/assets/img/service_details_entretien.png",
+    "iconName": "FaRegCalendarCheck",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Nettoyage complet",
+      "Remplacement des filtres",
+      "Vérification des composantes",
+      "Ajout de réfrigérant",
+      "Plan d’entretien annuel"
     ]
   },
   {
-    "icon": "/assets/img/icons/service_icon_10.svg",
-    "SubTitle": "Solutions de Filtration d'Air",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_1.png",
+    "slug": "installation-et-mise-en-service",
+    "name": "Installation et mise en service",
+    "SubTitle": "Installation professionnelle",
+    "title": "Travail soigné, normes respectées",
+    "desc": "Installation de tous nos produits de A à Z, par des techniciens certifiés. Travail propre, délais et prix compétitifs, équipements à la fine pointe.",
+    "img": "/assets/img/service_details_installation.png",
+    "iconName": "FaCogs",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Installation de climatiseurs et thermopompes",
+      "Installation d’échangeurs d’air",
+      "Installation de systèmes de filtration",
+      "Respect des normes de l’industrie",
+      "Techniciens certifiés"
     ]
   },
   {
-    "icon": "/assets/img/icons/service_icon_8.svg",
-    "SubTitle": "Tests de Qualité de l'Air Intérieur",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_2.png",
+    "slug": "travaux-d-electricite-generale",
+    "name": "Travaux d'électricité générale",
+    "SubTitle": "Travaux d’électricité générale",
+    "title": "Sécurité et conformité pour vos installations",
+    "desc": "Installation et branchement de bornes électriques, changement de panneaux, branchement de spa ou thermopompe de piscine, autres travaux d’électricité générale.",
+    "img": "/assets/img/service_details_electricite.png",
+    "iconName": "FaLightbulb",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Installation de bornes électriques",
+      "Changement de panneaux électriques",
+      "Branchement de spa ou thermopompe de piscine",
+      "Respect des normes de sécurité",
+      "Service personnalisé"
     ]
   },
   {
-    "icon": "/assets/img/icons/service_icon_9.svg",
-    "SubTitle": "Protection Chill Guard",
-    "title": "Refroidissement Fiable, Service Exceptionnel",
-    "desc": "Les climatiseurs peuvent développer divers problèmes au fil du temps, tels que des fuites de réfrigérant, des problèmes de compresseur ou des problèmes électriques.",
-    "img": "/assets/img/service_details_4.png",
+    "slug": "service-d-urgence-24h-7",
+    "name": "Service d’urgence 24h/7",
+    "SubTitle": "Service d’urgence 24h/7",
+    "title": "Assistance rapide en tout temps",
+    "desc": "Intervention rapide pour toute urgence en chauffage, climatisation ou ventilation. Ligne d’urgence disponible jour et nuit.",
+    "img": "/assets/img/service_details_urgence.png",
+    "iconName": "FaPhoneAlt",
     "Features": [
-      "Optimisation du Flux d'Air",
-      "Optimisation du Flux d'Air",
-      "Installation FreezeGuard",
-      "Entretien Cool Care",
-      "Vérification ClimateControl",
-      "Services d'Urgence ChillOut"
+      "Assistance 24h/7",
+      "Chauffage, climatisation, ventilation",
+      "Intervention rapide",
+      "Équipe d’experts disponible"
     ]
   }
 ]

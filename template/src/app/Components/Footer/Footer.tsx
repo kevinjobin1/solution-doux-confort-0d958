@@ -3,21 +3,23 @@ import Link from "next/link";
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import Image from "next/legacy/image";
-
+import CookieConsentComponent from "../CookieConsent/CookieConsent";
+import data from "../../Data/service2.json";
 const Footer = () => {
+    // const Services = [
+    //     'Thermopompes',
+    //     'Ventillation',
+    //     'Échangeurs d\'air',
+    //     'Climatisation résidentielle',
+    //     'Climatisation commerciale',
+    //     'Chauffage résidentiel',
+    //     'Chauffage commercial',
+    //     'Vente de pièces et installation',
+    //     'Réparations, entretiens et maintenance',
+    //     'Services d\'urgence 24/7'
+    //   ];
+    const Services = data;
 
-    const Services = [
-        'Thermopompes',
-        'Ventillation',
-        'Échangeurs d\'air',
-        'Climatisation résidentielle',
-        'Climatisation commerciale',
-        'Chauffage résidentiel',
-        'Chauffage commercial',
-        'Vente de pièces et installation',
-        'Réparations, entretiens et maintenance',
-        'Services d\'urgence 24/7'
-      ];
     const WorkingHours = [
         {day:'Lundi', time:'9h00 - 16h00'},
         {day:'Mardi', time:'9h00 - 16h00'},
@@ -51,6 +53,13 @@ const Footer = () => {
                   <path d="M8.71875 9H6.375V16H3.25V9H0.6875V6.125H3.25V3.90625C3.25 1.40625 4.75 0 7.03125 0C8.125 0 9.28125 0.21875 9.28125 0.21875V2.6875H8C6.75 2.6875 6.375 3.4375 6.375 4.25V6.125H9.15625L8.71875 9Z" fill="white"/>
                   </svg>
                   </Link>
+                   <Link href="https://www.tiktok.com/@solution.doux.con" target="_blank" className="cs_social_btn cs_center">
+                  <svg width="18" height="18" fill="white" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>tiktok</title> <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path> </g>
+                        </svg>
+                  </Link>
+                  <Link href="https://www.trouverunentrepreneur.com/profile/quebec/solution-doux-confort-inc" target="_blank" className="cs_social_btn cs_center">
+                    <svg width={26} height={20} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 126 76" data-name="graphic-only" aria-hidden="true"><path fill="currentColor" d="m21 60.799 21 15.2V45.6L21 30.4 0 45.598V76zM63 30.402l21 15.196V15.201L63 0 42 15.2v30.398zM105 60.799l21 15.2V45.6L105 30.4 84 45.598V76z" ></path></svg>
+                    </Link>
                   {/* <Link href="#" className="cs_social_btn cs_center">
                   <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5508 2.90625C12.5508 3.04297 12.5508 3.15234 12.5508 3.28906C12.5508 7.08984 9.67969 11.4375 4.40234 11.4375C2.76172 11.4375 1.25781 10.9727 0 10.1523C0.21875 10.1797 0.4375 10.207 0.683594 10.207C2.02344 10.207 3.25391 9.74219 4.23828 8.97656C2.98047 8.94922 1.91406 8.12891 1.55859 6.98047C1.75 7.00781 1.91406 7.03516 2.10547 7.03516C2.35156 7.03516 2.625 6.98047 2.84375 6.92578C1.53125 6.65234 0.546875 5.50391 0.546875 4.10938V4.08203C0.929688 4.30078 1.39453 4.41016 1.85938 4.4375C1.06641 3.91797 0.574219 3.04297 0.574219 2.05859C0.574219 1.51172 0.710938 1.01953 0.957031 0.609375C2.37891 2.33203 4.51172 3.48047 6.89062 3.61719C6.83594 3.39844 6.80859 3.17969 6.80859 2.96094C6.80859 1.375 8.09375 0.0898438 9.67969 0.0898438C10.5 0.0898438 11.2383 0.417969 11.7852 0.992188C12.4141 0.855469 13.043 0.609375 13.5898 0.28125C13.3711 0.964844 12.9336 1.51172 12.332 1.86719C12.9062 1.8125 13.4805 1.64844 13.9727 1.42969C13.5898 2.00391 13.0977 2.49609 12.5508 2.90625Z" fill="white"/>
@@ -93,7 +102,7 @@ const Footer = () => {
                     </div>
                     <ul className="cs_footer_menu_2">
                     {Services.map((item, i) => ( 
-                      <li key={i}><Link className="text-decoration-none cs_white_color" href="/service/service-details">{item}</Link></li>
+                      <li key={i}><Link className="text-decoration-none cs_white_color" href={`/service/${item.slug}`}>{item.name}</Link></li>
                     ))}
                     </ul>
                   </div>
@@ -189,9 +198,9 @@ const Footer = () => {
               <div className="cs_footer_bottom_in">
                 <div className="cs_footer_copyright fw-lighter ">Tous droits réservés (c) 2026- Solution Doux Confort inc.</div>
                 <ul className="cs_footer_menu cs_mp_0">
-                  <li><Link className="text-decoration-none cs_white_color" href="/">Paramètres & Confidentialité </Link></li>
+                   <li><CookieConsentComponent /></li>
                   <li><Link className="text-decoration-none cs_white_color" href="/faq">FAQ</Link></li>
-                  <li><Link className="text-decoration-none cs_white_color" href="/contact">Support</Link></li>
+                  <li><Link className="text-decoration-none cs_white_color" href="/contact">Contact</Link></li>
                 </ul>
               </div>
             </div>

@@ -1,44 +1,44 @@
 [
   {
     "id": "01",
-    "title": "Révision ComfortCare",
-    "desc": "Services de réparation d'urgence 24/7 pour les pannes soudaines",
+    "title": "Vente",
+    "desc": "Procurez-vous les meilleurs produits de grands fabricants comme Direct-air et Tosot à des prix plus que compétitifs.",
     "img": "/assets/img/icons/service_icon_1.svg",
-    "link": "/service/service-details"
+    "link": "/expertises"
   },
   {
     "id": "02",
-    "title": "Systèmes Frosty Flow",
-    "desc": "Les signes courants incluent une efficacité de refroidissement réduite et des bruits étranges",
-    "img": "/assets/img/icons//service_icon_2.svg",
-    "link": "/service/service-details"
+    "title": "Réparation",
+    "desc": "Nous diagnostiquons et réparons rapidement les problèmes de toutes marques pour rétablir votre confort.",
+    "img": "/assets/img/icons/service_icon_2.svg",
+    "link": "/expertises"
   },
   {
     "id": "03",
-    "title": "Refroidissement Breeze Tech",
-    "desc": "Il est recommandé d'entretenir votre climatiseur dès l'apparition de signes",
-    "img": "/assets/img/icons//service_icon_3.svg",
-    "link": "/service/service-details"
+    "title": "Entretien",
+    "desc": "Différents plans d’entretien pour assurer le bon fonctionnement et prolonger la durée de vie de vos appareils.",
+    "img": "/assets/img/icons/service_icon_3.svg",
+    "link": "/expertises"
   },
   {
     "id": "04",
-    "title": "Entretien Éco Cool",
-    "desc": "Vérifiez les réglages du thermostat, nettoyez ou remplacez le filtre",
-    "img": "/assets/img/icons//service_icon_4.svg",
-    "link": "/service/service-details"
+    "title": "Installation",
+    "desc": "L’installation de tous nos produits de A à Z avec rigueur, professionnalisme et respect des normes de l’industrie.",
+    "img": "/assets/img/icons/service_icon_4.svg",
+    "link": "/expertises"
   },
   {
     "id": "05",
-    "title": "Réparations ArcticShield",
-    "desc": "Bruits étranges, odeurs désagréables et augmentation de la consommation",
-    "img": "/assets/img/icons//service_icon_5.svg",
-    "link": "/service/service-details"
+    "title": "Service d'urgence",
+    "desc": "Service 24h/7 pour les urgences en chauffage, climatisation et ventilation. Assistance rapide et efficace.",
+    "img": "/assets/img/icons/service_icon_5.svg",
+    "link": "/services"
   },
   {
     "id": "06",
-    "title": "Solutions Cool Breeze",
-    "desc": "Test et analyse de la qualité de l'air intérieur avec Air",
-    "img": "/assets/img/icons//service_icon_6.svg",
-    "link": "/service/service-details"
+    "title": "Travaux d'électricité",
+    "desc": "Installation de borne électrique, changement de panneau, branchement de spa et électricité générale.",
+    "img": "/assets/img/icons/service_icon_6.svg",
+    "link": "/services"
   }
 ]

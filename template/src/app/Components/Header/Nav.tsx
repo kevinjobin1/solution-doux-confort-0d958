@@ -8,43 +8,75 @@ interface NavProps {
 export default function Nav({ setMobileToggle }: NavProps) {
   return (
     <ul className="cs_nav_list fw-medium">
-      {/* <li className="menu-item-has-children">
-        <Link href="/">Accueil</Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href="/" onClick={() => setMobileToggle(false)}>
-                Accueil
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li> */}
       <li>
-        <Link href="/about" onClick={() => setMobileToggle(false)}>
+        <Link href="/" onClick={() => setMobileToggle(false)}>
+          Accueil
+        </Link>
+      </li>
+      <li>
+        <Link href="/a-propos" onClick={() => setMobileToggle(false)}>
           À propos
         </Link>
       </li>
       <li className="menu-item-has-children">
-        <Link href="/service" onClick={() => setMobileToggle(false)}>
-          Nos services
+        <Link href="/expertises" onClick={() => setMobileToggle(false)}>
+          Nos expertises
         </Link>
         <DropDown>
           <ul>
             <li>
-              <Link href="/service" onClick={() => setMobileToggle(false)}>
-                Spécialités
+              <Link href="/expertises#vente" onClick={() => setMobileToggle(false)}>
+                Vente
               </Link>
             </li>
             <li>
-              <Link href="/service/service-details" onClick={() => setMobileToggle(false)}>
-                Plans d'entretien
+              <Link href="/expertises#reparation" onClick={() => setMobileToggle(false)}>
+                Réparation
+              </Link>
+            </li>
+            <li>
+              <Link href="/expertises#entretien" onClick={() => setMobileToggle(false)}>
+                Entretien
+              </Link>
+            </li>
+            <li>
+              <Link href="/expertises#installation" onClick={() => setMobileToggle(false)}>
+                Installation
               </Link>
             </li>
           </ul>
         </DropDown>
-
       </li>      
+      <li>
+        <Link href="/services" onClick={() => setMobileToggle(false)}>
+          Nos services
+        </Link>
+      </li>
+      <li className="menu-item-has-children">
+        <Link href="/produits" onClick={() => setMobileToggle(false)}>
+          Produits
+        </Link>
+        <DropDown>
+          <ul>
+            <li><Link href="/produits#thermopompe-murale" onClick={() => setMobileToggle(false)}>Thermopompe murale</Link></li>
+            <li><Link href="/produits#thermopompe-centrale" onClick={() => setMobileToggle(false)}>Thermopompe centrale</Link></li>
+            <li><Link href="/produits#echangeur-air" onClick={() => setMobileToggle(false)}>Échangeur d'air</Link></li>
+            <li><Link href="/produits#humidificateur" onClick={() => setMobileToggle(false)}>Humidificateur</Link></li>
+            <li><Link href="/produits#filtration" onClick={() => setMobileToggle(false)}>Filtration</Link></li>
+          </ul>
+        </DropDown>
+      </li>
+      <li>
+        <Link href="/plans-entretien" onClick={() => setMobileToggle(false)}>
+          Plans d'entretien
+        </Link>
+      </li>
+      <li>
+        <Link href="/financement" onClick={() => setMobileToggle(false)}>
+          Financement
+        </Link>
+      </li>
+      {/* 
       <li className="menu-item-has-children">
         <Link href="#">Entreprise</Link>
         <DropDown>
@@ -94,9 +126,10 @@ export default function Nav({ setMobileToggle }: NavProps) {
           </ul>
         </DropDown>
       </li>
+      */}
       <li>
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
-          Nous rejoindre
+          Contact
         </Link>
       </li>
     </ul>
